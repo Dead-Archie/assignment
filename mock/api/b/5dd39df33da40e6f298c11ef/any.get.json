@@ -1,0 +1,14 @@
+{
+  "header": {
+    "nav": [
+      { "href": "/", "label": "Home" },
+      { "href": "/features", "label": "Features" },
+      { "href": "/experience", "label": "Docs" },
+      {
+        "href": "https://github.com/pagesource/atomic-react-components",
+        "label": "Component Library"
+      },
+      { "href": "https://github.com/pagesource/universal-react-update", "label": "Github Repo" }
+    ]
+  }
+}

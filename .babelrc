@@ -1,0 +1,38 @@
+{
+  "ignore": ["node_modules/**/*"],
+  "presets": [
+    [
+      "next/babel",
+      {
+        "preset-env": { "targets": { "node": "current" } }
+      }
+    ],
+    ["@babel/flow"]
+  ],
+  "plugins": [
+    [
+      "babel-plugin-styled-components",
+      {
+        "ssr": true,
+        "displayName": true,
+        "preprocess": false
+      }
+    ]
+  ],
+  "sourceType": "unambiguous",
+  "env": {
+    "development": {
+      "plugins": ["@babel/plugin-transform-runtime"]
+    },
+    "test": {
+      "presets": [
+        [
+          "next/babel",
+          {
+            "modules": "commonjs"
+          }
+        ]
+      ]
+    }
+  }
+}

@@ -1,0 +1,3056 @@
+{
+  "numFailedTestSuites": 0,
+  "numFailedTests": 0,
+  "numPassedTestSuites": 9,
+  "numPassedTests": 37,
+  "numPendingTestSuites": 0,
+  "numPendingTests": 0,
+  "numRuntimeErrorTestSuites": 0,
+  "numTodoTests": 0,
+  "numTotalTestSuites": 9,
+  "numTotalTests": 37,
+  "openHandles": [],
+  "snapshot": {
+    "added": 0,
+    "didUpdate": false,
+    "failure": false,
+    "filesAdded": 0,
+    "filesRemoved": 0,
+    "filesRemovedList": [],
+    "filesUnmatched": 0,
+    "filesUpdated": 0,
+    "matched": 5,
+    "total": 5,
+    "unchecked": 0,
+    "uncheckedKeysByFile": [],
+    "unmatched": 0,
+    "updated": 0
+  },
+  "startTime": 1587474000028,
+  "success": true,
+  "testResults": [
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": ["injectSagaAndReducer"],
+          "failureMessages": [],
+          "fullName": "injectSagaAndReducer should fail if key is not passed",
+          "location": null,
+          "status": "passed",
+          "title": "should fail if key is not passed"
+        },
+        {
+          "ancestorTitles": ["injectSagaAndReducer"],
+          "failureMessages": [],
+          "fullName": "injectSagaAndReducer should remove old sagas from store.injectedSagas",
+          "location": null,
+          "status": "passed",
+          "title": "should remove old sagas from store.injectedSagas"
+        },
+        {
+          "ancestorTitles": ["injectSagaAndReducer"],
+          "failureMessages": [],
+          "fullName": "injectSagaAndReducer should inject saga",
+          "location": null,
+          "status": "passed",
+          "title": "should inject saga"
+        },
+        {
+          "ancestorTitles": ["injectSagaAndReducer"],
+          "failureMessages": [],
+          "fullName": "injectSagaAndReducer should inject reducer",
+          "location": null,
+          "status": "passed",
+          "title": "should inject reducer"
+        },
+        {
+          "ancestorTitles": ["injectSagaAndReducer"],
+          "failureMessages": [],
+          "fullName": "injectSagaAndReducer should inject saga and reducer",
+          "location": null,
+          "status": "passed",
+          "title": "should inject saga and reducer"
+        }
+      ],
+      "endTime": 1587474003818,
+      "message": "",
+      "name": "/Users/nildutta1/Documents/Assignment/universal-react/app/lib/dynamicStore/tests/injectSagaAndReducer.test.js",
+      "startTime": 1587474002861,
+      "status": "passed",
+      "summary": ""
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": ["GlobalReducer"],
+          "failureMessages": [],
+          "fullName": "GlobalReducer should return initial state",
+          "location": null,
+          "status": "passed",
+          "title": "should return initial state"
+        },
+        {
+          "ancestorTitles": ["GlobalReducer"],
+          "failureMessages": [],
+          "fullName": "GlobalReducer should return success state and set in devicetype ",
+          "location": null,
+          "status": "passed",
+          "title": "should return success state and set in devicetype "
+        },
+        {
+          "ancestorTitles": ["GlobalReducer"],
+          "failureMessages": [],
+          "fullName": "GlobalReducer should return success state and set if Device is Tablet ",
+          "location": null,
+          "status": "passed",
+          "title": "should return success state and set if Device is Tablet "
+        },
+        {
+          "ancestorTitles": ["GlobalReducer"],
+          "failureMessages": [],
+          "fullName": "GlobalReducer should return success state and setRoute ",
+          "location": null,
+          "status": "passed",
+          "title": "should return success state and setRoute "
+        },
+        {
+          "ancestorTitles": ["GlobalReducer"],
+          "failureMessages": [],
+          "fullName": "GlobalReducer should return success state and setConfigKeys ",
+          "location": null,
+          "status": "passed",
+          "title": "should return success state and setConfigKeys "
+        }
+      ],
+      "endTime": 1587474003850,
+      "message": "",
+      "name": "/Users/nildutta1/Documents/Assignment/universal-react/app/global/reducer/tests/globalReducer.test.js",
+      "startTime": 1587474002901,
+      "status": "passed",
+      "summary": ""
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": ["reducer injectors", "getInjectors"],
+          "failureMessages": [],
+          "fullName": "reducer injectors getInjectors should return injectors",
+          "location": null,
+          "status": "passed",
+          "title": "should return injectors"
+        },
+        {
+          "ancestorTitles": ["reducer injectors", "getInjectors"],
+          "failureMessages": [],
+          "fullName": "reducer injectors getInjectors should throw if passed invalid store shape",
+          "location": null,
+          "status": "passed",
+          "title": "should throw if passed invalid store shape"
+        },
+        {
+          "ancestorTitles": ["reducer injectors", "injectReducer helper"],
+          "failureMessages": [],
+          "fullName": "reducer injectors injectReducer helper should check a store if the second argument is falsy",
+          "location": null,
+          "status": "passed",
+          "title": "should check a store if the second argument is falsy"
+        },
+        {
+          "ancestorTitles": ["reducer injectors", "injectReducer helper"],
+          "failureMessages": [],
+          "fullName": "reducer injectors injectReducer helper it should not check a store if the second argument is true",
+          "location": null,
+          "status": "passed",
+          "title": "it should not check a store if the second argument is true"
+        },
+        {
+          "ancestorTitles": ["reducer injectors", "injectReducer helper"],
+          "failureMessages": [],
+          "fullName": "reducer injectors injectReducer helper should validate a reducer and reducer's key",
+          "location": null,
+          "status": "passed",
+          "title": "should validate a reducer and reducer's key"
+        },
+        {
+          "ancestorTitles": ["reducer injectors", "injectReducer helper"],
+          "failureMessages": [],
+          "fullName": "reducer injectors injectReducer helper given a store, it should provide a function to inject a reducer",
+          "location": null,
+          "status": "passed",
+          "title": "given a store, it should provide a function to inject a reducer"
+        },
+        {
+          "ancestorTitles": ["reducer injectors", "injectReducer helper"],
+          "failureMessages": [],
+          "fullName": "reducer injectors injectReducer helper should not assign reducer if already existing",
+          "location": null,
+          "status": "passed",
+          "title": "should not assign reducer if already existing"
+        },
+        {
+          "ancestorTitles": ["reducer injectors", "injectReducer helper"],
+          "failureMessages": [],
+          "fullName": "reducer injectors injectReducer helper should assign reducer if different implementation for hot reloading",
+          "location": null,
+          "status": "passed",
+          "title": "should assign reducer if different implementation for hot reloading"
+        }
+      ],
+      "endTime": 1587474003932,
+      "message": "",
+      "name": "/Users/nildutta1/Documents/Assignment/universal-react/app/lib/dynamicStore/tests/reducerInjectors.test.js",
+      "startTime": 1587474002896,
+      "status": "passed",
+      "summary": ""
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": ["enhance"],
+          "failureMessages": [],
+          "fullName": "enhance should return a composed function",
+          "location": null,
+          "status": "passed",
+          "title": "should return a composed function"
+        },
+        {
+          "ancestorTitles": ["enhance", "has function getWrapperComponent which"],
+          "failureMessages": [],
+          "fullName": "enhance has function getWrapperComponent which should return WrapperComponent with WrappedComponent inside it",
+          "location": null,
+          "status": "passed",
+          "title": "should return WrapperComponent with WrappedComponent inside it"
+        },
+        {
+          "ancestorTitles": ["enhance", "has function getWrapperComponent which"],
+          "failureMessages": [],
+          "fullName": "enhance has function getWrapperComponent which has static method addRequestDetails which appends requestDetails to provided action",
+          "location": null,
+          "status": "passed",
+          "title": "has static method addRequestDetails which appends requestDetails to provided action"
+        },
+        {
+          "ancestorTitles": [
+            "enhance",
+            "has function getWrapperComponent which",
+            "has function called validatePageData which"
+          ],
+          "failureMessages": [],
+          "fullName": "enhance has function getWrapperComponent which has function called validatePageData which should not call getState method on store if params not adequate",
+          "location": null,
+          "status": "passed",
+          "title": "should not call getState method on store if params not adequate"
+        },
+        {
+          "ancestorTitles": [
+            "enhance",
+            "has function getWrapperComponent which",
+            "has function called validatePageData which"
+          ],
+          "failureMessages": [],
+          "fullName": "enhance has function getWrapperComponent which has function called validatePageData which should call getState method on store if params adequate",
+          "location": null,
+          "status": "passed",
+          "title": "should call getState method on store if params adequate"
+        },
+        {
+          "ancestorTitles": [
+            "enhance",
+            "has function getWrapperComponent which",
+            "has function called validatePageData which"
+          ],
+          "failureMessages": [],
+          "fullName": "enhance has function getWrapperComponent which has function called validatePageData which should not log errors if storeStruct has values",
+          "location": null,
+          "status": "passed",
+          "title": "should not log errors if storeStruct has values"
+        },
+        {
+          "ancestorTitles": [
+            "enhance",
+            "has function getWrapperComponent which",
+            "has function called validatePageData which"
+          ],
+          "failureMessages": [],
+          "fullName": "enhance has function getWrapperComponent which has function called validatePageData which should call redirect on res object when on server",
+          "location": null,
+          "status": "passed",
+          "title": "should call redirect on res object when on server"
+        },
+        {
+          "ancestorTitles": [
+            "enhance",
+            "has function getWrapperComponent which",
+            "has function called dispatchActions which"
+          ],
+          "failureMessages": [],
+          "fullName": "enhance has function getWrapperComponent which has function called dispatchActions which should dispatch all actions passed to it",
+          "location": null,
+          "status": "passed",
+          "title": "should dispatch all actions passed to it"
+        },
+        {
+          "ancestorTitles": [
+            "enhance",
+            "has function getWrapperComponent which",
+            "has function called dispatchActions which"
+          ],
+          "failureMessages": [],
+          "fullName": "enhance has function getWrapperComponent which has function called dispatchActions which should dispatch all actions passed to it even when needQuery is true",
+          "location": null,
+          "status": "passed",
+          "title": "should dispatch all actions passed to it even when needQuery is true"
+        },
+        {
+          "ancestorTitles": [
+            "enhance",
+            "has function getWrapperComponent which",
+            "has function called getInitialProps which"
+          ],
+          "failureMessages": [],
+          "fullName": "enhance has function getWrapperComponent which has function called getInitialProps which should call dispatch currentRoute server action",
+          "location": null,
+          "status": "passed",
+          "title": "should call dispatch currentRoute server action"
+        },
+        {
+          "ancestorTitles": [
+            "enhance",
+            "has function getWrapperComponent which",
+            "has function called getInitialProps which"
+          ],
+          "failureMessages": [],
+          "fullName": "enhance has function getWrapperComponent which has function called getInitialProps which should call dispatch server action when isServer",
+          "location": null,
+          "status": "passed",
+          "title": "should call dispatch server action when isServer"
+        },
+        {
+          "ancestorTitles": [
+            "enhance",
+            "has function getWrapperComponent which",
+            "has function called getInitialProps which"
+          ],
+          "failureMessages": [],
+          "fullName": "enhance has function getWrapperComponent which has function called getInitialProps which should call dispatch currentRoute server action even on Mobile",
+          "location": null,
+          "status": "passed",
+          "title": "should call dispatch currentRoute server action even on Mobile"
+        },
+        {
+          "ancestorTitles": [
+            "enhance",
+            "has function getWrapperComponent which",
+            "has function called getInitialProps which"
+          ],
+          "failureMessages": [],
+          "fullName": "enhance has function getWrapperComponent which has function called getInitialProps which should call dispatch when initialActions are passed",
+          "location": null,
+          "status": "passed",
+          "title": "should call dispatch when initialActions are passed"
+        },
+        {
+          "ancestorTitles": [
+            "enhance",
+            "has function getWrapperComponent which",
+            "has function called getInitialProps which"
+          ],
+          "failureMessages": [],
+          "fullName": "enhance has function getWrapperComponent which has function called getInitialProps which should call getInitialProps of WrappedComponent",
+          "location": null,
+          "status": "passed",
+          "title": "should call getInitialProps of WrappedComponent"
+        }
+      ],
+      "endTime": 1587474004060,
+      "message": "",
+      "name": "/Users/nildutta1/Documents/Assignment/universal-react/app/lib/dynamicStore/tests/enhance.test.js",
+      "startTime": 1587474002841,
+      "status": "passed",
+      "summary": ""
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": ["ErrorPage Component"],
+          "failureMessages": [],
+          "fullName": "ErrorPage Component should render correctly",
+          "location": null,
+          "status": "passed",
+          "title": "should render correctly"
+        }
+      ],
+      "endTime": 1587474004250,
+      "message": "",
+      "name": "/Users/nildutta1/Documents/Assignment/universal-react/app/components/templates/ErrorPage/tests/index.test.js",
+      "startTime": 1587474002871,
+      "status": "passed",
+      "summary": ""
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": ["HomePage component"],
+          "failureMessages": [],
+          "fullName": "HomePage component should render correctly",
+          "location": null,
+          "status": "passed",
+          "title": "should render correctly"
+        }
+      ],
+      "endTime": 1587474004492,
+      "message": "",
+      "name": "/Users/nildutta1/Documents/Assignment/universal-react/app/containers/organisms/Experience/tests/Experience.test.js",
+      "startTime": 1587474002868,
+      "status": "passed",
+      "summary": ""
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": ["HomePage component"],
+          "failureMessages": [],
+          "fullName": "HomePage component should render correctly",
+          "location": null,
+          "status": "passed",
+          "title": "should render correctly"
+        }
+      ],
+      "endTime": 1587474005155,
+      "message": "",
+      "name": "/Users/nildutta1/Documents/Assignment/universal-react/app/components/organisms/Experience/tests/Experience.test.js",
+      "startTime": 1587474002864,
+      "status": "passed",
+      "summary": ""
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": ["HomePage component"],
+          "failureMessages": [],
+          "fullName": "HomePage component should render correctly",
+          "location": null,
+          "status": "passed",
+          "title": "should render correctly"
+        }
+      ],
+      "endTime": 1587474005172,
+      "message": "",
+      "name": "/Users/nildutta1/Documents/Assignment/universal-react/app/components/templates/HomePage/tests/HomePage.test.js",
+      "startTime": 1587474002871,
+      "status": "passed",
+      "summary": ""
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": ["HomePage component"],
+          "failureMessages": [],
+          "fullName": "HomePage component should render correctly",
+          "location": null,
+          "status": "passed",
+          "title": "should render correctly"
+        }
+      ],
+      "endTime": 1587474005257,
+      "message": "",
+      "name": "/Users/nildutta1/Documents/Assignment/universal-react/app/containers/templates/HomePage/tests/HomePage.test.js",
+      "startTime": 1587474002883,
+      "status": "passed",
+      "summary": ""
+    }
+  ],
+  "wasInterrupted": false,
+  "coverageMap": {
+    "/Users/nildutta1/Documents/Assignment/universal-react/app/components/templates/ErrorPage/ErrorPage.js": {
+      "path": "/Users/nildutta1/Documents/Assignment/universal-react/app/components/templates/ErrorPage/ErrorPage.js",
+      "statementMap": {
+        "0": { "start": { "line": 14, "column": 4 }, "end": { "line": 16, "column": 5 } },
+        "1": { "start": { "line": 15, "column": 6 }, "end": { "line": 15, "column": 22 } },
+        "2": { "start": { "line": 17, "column": 4 }, "end": { "line": 17, "column": 14 } },
+        "3": { "start": { "line": 21, "column": 26 }, "end": { "line": 21, "column": 36 } },
+        "4": { "start": { "line": 22, "column": 25 }, "end": { "line": 22, "column": 50 } },
+        "5": { "start": { "line": 23, "column": 4 }, "end": { "line": 30, "column": 6 } }
+      },
+      "fnMap": {
+        "0": {
+          "name": "(anonymous_0)",
+          "decl": { "start": { "line": 13, "column": 2 }, "end": { "line": 13, "column": 3 } },
+          "loc": { "start": { "line": 13, "column": 39 }, "end": { "line": 18, "column": 3 } },
+          "line": 13
+        },
+        "1": {
+          "name": "(anonymous_1)",
+          "decl": { "start": { "line": 20, "column": 2 }, "end": { "line": 20, "column": 3 } },
+          "loc": { "start": { "line": 20, "column": 11 }, "end": { "line": 31, "column": 3 } },
+          "line": 20
+        }
+      },
+      "branchMap": {
+        "0": {
+          "loc": { "start": { "line": 14, "column": 4 }, "end": { "line": 16, "column": 5 } },
+          "type": "if",
+          "locations": [
+            { "start": { "line": 14, "column": 4 }, "end": { "line": 16, "column": 5 } },
+            { "start": { "line": 14, "column": 4 }, "end": { "line": 16, "column": 5 } }
+          ],
+          "line": 14
+        },
+        "1": {
+          "loc": { "start": { "line": 14, "column": 8 }, "end": { "line": 14, "column": 27 } },
+          "type": "binary-expr",
+          "locations": [
+            { "start": { "line": 14, "column": 8 }, "end": { "line": 14, "column": 11 } },
+            { "start": { "line": 14, "column": 15 }, "end": { "line": 14, "column": 27 } }
+          ],
+          "line": 14
+        }
+      },
+      "s": { "0": 0, "1": 0, "2": 0, "3": 1, "4": 1, "5": 1 },
+      "f": { "0": 0, "1": 1 },
+      "b": { "0": [0, 0], "1": [0, 0] },
+      "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
+      "hash": "0b4958ff558e20adeb3f4d30f681dbe8601c787e"
+    },
+    "/Users/nildutta1/Documents/Assignment/universal-react/app/components/templates/Layout/index.js": {
+      "path": "/Users/nildutta1/Documents/Assignment/universal-react/app/components/templates/Layout/index.js",
+      "statementMap": {},
+      "fnMap": {},
+      "branchMap": {},
+      "s": {},
+      "f": {},
+      "b": {},
+      "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
+      "hash": "169ff9d3db4e065e32de48585d11e9dc2cefc8ed"
+    },
+    "/Users/nildutta1/Documents/Assignment/universal-react/app/components/templates/Layout/Layout.js": {
+      "path": "/Users/nildutta1/Documents/Assignment/universal-react/app/components/templates/Layout/Layout.js",
+      "statementMap": {
+        "0": { "start": { "line": 19, "column": 15 }, "end": { "line": 45, "column": 1 } },
+        "1": { "start": { "line": 21, "column": 2 }, "end": { "line": 21, "column": 43 } },
+        "2": { "start": { "line": 26, "column": 2 }, "end": { "line": 26, "column": 40 } },
+        "3": { "start": { "line": 27, "column": 2 }, "end": { "line": 27, "column": 32 } },
+        "4": { "start": { "line": 29, "column": 2 }, "end": { "line": 44, "column": 4 } },
+        "5": { "start": { "line": 47, "column": 0 }, "end": { "line": 49, "column": 2 } },
+        "6": { "start": { "line": 54, "column": 51 }, "end": { "line": 60, "column": 2 } }
+      },
+      "fnMap": {
+        "0": {
+          "name": "(anonymous_0)",
+          "decl": { "start": { "line": 19, "column": 15 }, "end": { "line": 19, "column": 16 } },
+          "loc": { "start": { "line": 19, "column": 74 }, "end": { "line": 45, "column": 1 } },
+          "line": 19
+        }
+      },
+      "branchMap": {
+        "0": {
+          "loc": { "start": { "line": 21, "column": 21 }, "end": { "line": 21, "column": 42 } },
+          "type": "binary-expr",
+          "locations": [
+            { "start": { "line": 21, "column": 21 }, "end": { "line": 21, "column": 31 } },
+            { "start": { "line": 21, "column": 35 }, "end": { "line": 21, "column": 42 } }
+          ],
+          "line": 21
+        }
+      },
+      "s": { "0": 5, "1": 0, "2": 0, "3": 0, "4": 0, "5": 5, "6": 5 },
+      "f": { "0": 0 },
+      "b": { "0": [0, 0] },
+      "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
+      "hash": "3caddf0c77ea22039e04c1e5745a7a8ca1b2f591"
+    },
+    "/Users/nildutta1/Documents/Assignment/universal-react/app/components/templates/ErrorPage/ErrorPage.actions.js": {
+      "path": "/Users/nildutta1/Documents/Assignment/universal-react/app/components/templates/ErrorPage/ErrorPage.actions.js",
+      "statementMap": {
+        "0": { "start": { "line": 13, "column": 29 }, "end": { "line": 16, "column": 2 } },
+        "1": { "start": { "line": 13, "column": 36 }, "end": { "line": 16, "column": 1 } },
+        "2": { "start": { "line": 18, "column": 36 }, "end": { "line": 21, "column": 2 } },
+        "3": { "start": { "line": 18, "column": 52 }, "end": { "line": 21, "column": 1 } },
+        "4": { "start": { "line": 23, "column": 36 }, "end": { "line": 25, "column": 2 } },
+        "5": { "start": { "line": 23, "column": 43 }, "end": { "line": 25, "column": 1 } }
+      },
+      "fnMap": {
+        "0": {
+          "name": "(anonymous_0)",
+          "decl": { "start": { "line": 13, "column": 29 }, "end": { "line": 13, "column": 30 } },
+          "loc": { "start": { "line": 13, "column": 36 }, "end": { "line": 16, "column": 1 } },
+          "line": 13
+        },
+        "1": {
+          "name": "(anonymous_1)",
+          "decl": { "start": { "line": 18, "column": 36 }, "end": { "line": 18, "column": 37 } },
+          "loc": { "start": { "line": 18, "column": 52 }, "end": { "line": 21, "column": 1 } },
+          "line": 18
+        },
+        "2": {
+          "name": "(anonymous_2)",
+          "decl": { "start": { "line": 23, "column": 36 }, "end": { "line": 23, "column": 37 } },
+          "loc": { "start": { "line": 23, "column": 43 }, "end": { "line": 25, "column": 1 } },
+          "line": 23
+        }
+      },
+      "branchMap": {},
+      "s": { "0": 1, "1": 0, "2": 1, "3": 0, "4": 1, "5": 0 },
+      "f": { "0": 0, "1": 0, "2": 0 },
+      "b": {},
+      "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
+      "hash": "df3cce9d44bb52abd7e4f1488dc218ca8e53481b"
+    },
+    "/Users/nildutta1/Documents/Assignment/universal-react/app/components/templates/ErrorPage/ErrorPage.constants.js": {
+      "path": "/Users/nildutta1/Documents/Assignment/universal-react/app/components/templates/ErrorPage/ErrorPage.constants.js",
+      "statementMap": {
+        "0": { "start": { "line": 5, "column": 31 }, "end": { "line": 5, "column": 48 } },
+        "1": { "start": { "line": 6, "column": 39 }, "end": { "line": 6, "column": 64 } },
+        "2": { "start": { "line": 7, "column": 39 }, "end": { "line": 7, "column": 64 } }
+      },
+      "fnMap": {},
+      "branchMap": {},
+      "s": { "0": 1, "1": 1, "2": 1 },
+      "f": {},
+      "b": {},
+      "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
+      "hash": "3bde840cdabaf51090f673ce6a9981f48577e298"
+    },
+    "/Users/nildutta1/Documents/Assignment/universal-react/app/components/atoms/HeadTag/index.js": {
+      "path": "/Users/nildutta1/Documents/Assignment/universal-react/app/components/atoms/HeadTag/index.js",
+      "statementMap": {},
+      "fnMap": {},
+      "branchMap": {},
+      "s": {},
+      "f": {},
+      "b": {},
+      "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
+      "hash": "92f5a34d0c2576d6b6afb90a451090085bf163f2"
+    },
+    "/Users/nildutta1/Documents/Assignment/universal-react/app/components/atoms/HeadTag/HeadTag.js": {
+      "path": "/Users/nildutta1/Documents/Assignment/universal-react/app/components/atoms/HeadTag/HeadTag.js",
+      "statementMap": {
+        "0": { "start": { "line": 7, "column": 23 }, "end": { "line": 20, "column": 1 } },
+        "1": { "start": { "line": 8, "column": 16 }, "end": { "line": 10, "column": 3 } },
+        "2": { "start": { "line": 14, "column": 2 }, "end": { "line": 16, "column": 21 } },
+        "3": { "start": { "line": 19, "column": 2 }, "end": { "line": 19, "column": 29 } },
+        "4": { "start": { "line": 24, "column": 30 }, "end": { "line": 24, "column": 40 } },
+        "5": { "start": { "line": 25, "column": 32 }, "end": { "line": 25, "column": 38 } },
+        "6": { "start": { "line": 26, "column": 4 }, "end": { "line": 63, "column": 6 } },
+        "7": { "start": { "line": 30, "column": 26 }, "end": { "line": 30, "column": 90 } },
+        "8": { "start": { "line": 31, "column": 10 }, "end": { "line": 33, "column": 11 } },
+        "9": { "start": { "line": 32, "column": 12 }, "end": { "line": 32, "column": 24 } },
+        "10": { "start": { "line": 34, "column": 10 }, "end": { "line": 45, "column": 12 } },
+        "11": { "start": { "line": 36, "column": 14 }, "end": { "line": 41, "column": 16 } },
+        "12": { "start": { "line": 48, "column": 11 }, "end": { "line": 50, "column": 18 } },
+        "13": { "start": { "line": 67, "column": 0 }, "end": { "line": 70, "column": 2 } },
+        "14": { "start": { "line": 72, "column": 0 }, "end": { "line": 72, "column": 26 } }
+      },
+      "fnMap": {
+        "0": {
+          "name": "(anonymous_0)",
+          "decl": { "start": { "line": 7, "column": 23 }, "end": { "line": 7, "column": 24 } },
+          "loc": { "start": { "line": 7, "column": 45 }, "end": { "line": 20, "column": 1 } },
+          "line": 7
+        },
+        "1": {
+          "name": "(anonymous_1)",
+          "decl": { "start": { "line": 23, "column": 2 }, "end": { "line": 23, "column": 3 } },
+          "loc": { "start": { "line": 23, "column": 11 }, "end": { "line": 64, "column": 3 } },
+          "line": 23
+        },
+        "2": {
+          "name": "(anonymous_2)",
+          "decl": { "start": { "line": 29, "column": 23 }, "end": { "line": 29, "column": 24 } },
+          "loc": { "start": { "line": 29, "column": 31 }, "end": { "line": 46, "column": 9 } },
+          "line": 29
+        },
+        "3": {
+          "name": "(anonymous_3)",
+          "decl": { "start": { "line": 35, "column": 28 }, "end": { "line": 35, "column": 29 } },
+          "loc": { "start": { "line": 36, "column": 14 }, "end": { "line": 41, "column": 16 } },
+          "line": 36
+        },
+        "4": {
+          "name": "(anonymous_4)",
+          "decl": { "start": { "line": 47, "column": 18 }, "end": { "line": 47, "column": 19 } },
+          "loc": { "start": { "line": 48, "column": 11 }, "end": { "line": 50, "column": 18 } },
+          "line": 48
+        }
+      },
+      "branchMap": {
+        "0": {
+          "loc": { "start": { "line": 14, "column": 8 }, "end": { "line": 14, "column": 67 } },
+          "type": "cond-expr",
+          "locations": [
+            { "start": { "line": 14, "column": 48 }, "end": { "line": 14, "column": 58 } },
+            { "start": { "line": 14, "column": 61 }, "end": { "line": 14, "column": 67 } }
+          ],
+          "line": 14
+        },
+        "1": {
+          "loc": { "start": { "line": 14, "column": 8 }, "end": { "line": 14, "column": 45 } },
+          "type": "binary-expr",
+          "locations": [
+            { "start": { "line": 14, "column": 8 }, "end": { "line": 14, "column": 20 } },
+            { "start": { "line": 14, "column": 24 }, "end": { "line": 14, "column": 45 } }
+          ],
+          "line": 14
+        },
+        "2": {
+          "loc": { "start": { "line": 14, "column": 71 }, "end": { "line": 16, "column": 20 } },
+          "type": "cond-expr",
+          "locations": [
+            { "start": { "line": 15, "column": 6 }, "end": { "line": 15, "column": 41 } },
+            { "start": { "line": 16, "column": 6 }, "end": { "line": 16, "column": 20 } }
+          ],
+          "line": 14
+        },
+        "3": {
+          "loc": { "start": { "line": 30, "column": 26 }, "end": { "line": 30, "column": 90 } },
+          "type": "binary-expr",
+          "locations": [
+            { "start": { "line": 30, "column": 26 }, "end": { "line": 30, "column": 59 } },
+            { "start": { "line": 30, "column": 63 }, "end": { "line": 30, "column": 90 } }
+          ],
+          "line": 30
+        },
+        "4": {
+          "loc": { "start": { "line": 31, "column": 10 }, "end": { "line": 33, "column": 11 } },
+          "type": "if",
+          "locations": [
+            { "start": { "line": 31, "column": 10 }, "end": { "line": 33, "column": 11 } },
+            { "start": { "line": 31, "column": 10 }, "end": { "line": 33, "column": 11 } }
+          ],
+          "line": 31
+        },
+        "5": {
+          "loc": { "start": { "line": 34, "column": 17 }, "end": { "line": 45, "column": 11 } },
+          "type": "cond-expr",
+          "locations": [
+            { "start": { "line": 35, "column": 12 }, "end": { "line": 42, "column": 14 } },
+            { "start": { "line": 44, "column": 12 }, "end": { "line": 44, "column": 77 } }
+          ],
+          "line": 34
+        },
+        "6": {
+          "loc": { "start": { "line": 48, "column": 11 }, "end": { "line": 50, "column": 18 } },
+          "type": "cond-expr",
+          "locations": [
+            { "start": { "line": 49, "column": 12 }, "end": { "line": 49, "column": 70 } },
+            { "start": { "line": 50, "column": 14 }, "end": { "line": 50, "column": 18 } }
+          ],
+          "line": 48
+        },
+        "7": {
+          "loc": { "start": { "line": 54, "column": 9 }, "end": { "line": 61, "column": 16 } },
+          "type": "cond-expr",
+          "locations": [
+            { "start": { "line": 55, "column": 10 }, "end": { "line": 60, "column": 12 } },
+            { "start": { "line": 61, "column": 12 }, "end": { "line": 61, "column": 16 } }
+          ],
+          "line": 54
+        }
+      },
+      "s": {
+        "0": 4,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0,
+        "12": 0,
+        "13": 4,
+        "14": 4
+      },
+      "f": { "0": 0, "1": 0, "2": 0, "3": 0, "4": 0 },
+      "b": {
+        "0": [0, 0],
+        "1": [0, 0],
+        "2": [0, 0],
+        "3": [0, 0],
+        "4": [0, 0],
+        "5": [0, 0],
+        "6": [0, 0],
+        "7": [0, 0]
+      },
+      "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
+      "hash": "d3f4f75c8519b84f2ec79d64fb2e03411eec2e4b"
+    },
+    "/Users/nildutta1/Documents/Assignment/universal-react/app/components/atoms/HeadTag/HeadTag.config.js": {
+      "path": "/Users/nildutta1/Documents/Assignment/universal-react/app/components/atoms/HeadTag/HeadTag.config.js",
+      "statementMap": {},
+      "fnMap": {},
+      "branchMap": {},
+      "s": {},
+      "f": {},
+      "b": {},
+      "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
+      "hash": "74e7ae9ce910374555f75d7f0aa795bd479b3c8a"
+    },
+    "/Users/nildutta1/Documents/Assignment/universal-react/app/components/templates/ErrorPage/ErrorPage.saga.js": {
+      "path": "/Users/nildutta1/Documents/Assignment/universal-react/app/components/templates/ErrorPage/ErrorPage.saga.js",
+      "statementMap": {
+        "0": { "start": { "line": 7, "column": 2 }, "end": { "line": 13, "column": 3 } },
+        "1": { "start": { "line": 9, "column": 17 }, "end": { "line": 9, "column": 77 } },
+        "2": { "start": { "line": 10, "column": 4 }, "end": { "line": 10, "column": 42 } },
+        "3": { "start": { "line": 12, "column": 4 }, "end": { "line": 12, "column": 41 } },
+        "4": { "start": { "line": 17, "column": 2 }, "end": { "line": 21, "column": 3 } },
+        "5": { "start": { "line": 18, "column": 4 }, "end": { "line": 18, "column": 60 } },
+        "6": { "start": { "line": 20, "column": 4 }, "end": { "line": 20, "column": 41 } }
+      },
+      "fnMap": {
+        "0": {
+          "name": "loadErrorPageDataSaga",
+          "decl": { "start": { "line": 6, "column": 17 }, "end": { "line": 6, "column": 38 } },
+          "loc": { "start": { "line": 6, "column": 47 }, "end": { "line": 14, "column": 1 } },
+          "line": 6
+        },
+        "1": {
+          "name": "errorPageSaga",
+          "decl": { "start": { "line": 16, "column": 25 }, "end": { "line": 16, "column": 38 } },
+          "loc": { "start": { "line": 16, "column": 41 }, "end": { "line": 22, "column": 1 } },
+          "line": 16
+        }
+      },
+      "branchMap": {},
+      "s": { "0": 0, "1": 0, "2": 0, "3": 0, "4": 0, "5": 0, "6": 0 },
+      "f": { "0": 0, "1": 0 },
+      "b": {},
+      "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
+      "hash": "143e01725e75cbb10767989958d722d482af20a5"
+    },
+    "/Users/nildutta1/Documents/Assignment/universal-react/app/components/templates/ErrorPage/ErrorPage.reducer.js": {
+      "path": "/Users/nildutta1/Documents/Assignment/universal-react/app/components/templates/ErrorPage/ErrorPage.reducer.js",
+      "statementMap": {
+        "0": { "start": { "line": 6, "column": 32 }, "end": { "line": 7, "column": 35 } },
+        "1": { "start": { "line": 7, "column": 2 }, "end": { "line": 7, "column": 35 } },
+        "2": { "start": { "line": 9, "column": 22 }, "end": { "line": 18, "column": 1 } },
+        "3": { "start": { "line": 10, "column": 2 }, "end": { "line": 17, "column": 3 } },
+        "4": { "start": { "line": 12, "column": 6 }, "end": { "line": 12, "column": 50 } },
+        "5": { "start": { "line": 14, "column": 6 }, "end": { "line": 14, "column": 46 } },
+        "6": { "start": { "line": 16, "column": 6 }, "end": { "line": 16, "column": 19 } }
+      },
+      "fnMap": {
+        "0": {
+          "name": "(anonymous_0)",
+          "decl": { "start": { "line": 6, "column": 32 }, "end": { "line": 6, "column": 33 } },
+          "loc": { "start": { "line": 7, "column": 2 }, "end": { "line": 7, "column": 35 } },
+          "line": 7
+        },
+        "1": {
+          "name": "(anonymous_1)",
+          "decl": { "start": { "line": 9, "column": 22 }, "end": { "line": 9, "column": 23 } },
+          "loc": { "start": { "line": 9, "column": 79 }, "end": { "line": 18, "column": 1 } },
+          "line": 9
+        }
+      },
+      "branchMap": {
+        "0": {
+          "loc": { "start": { "line": 9, "column": 23 }, "end": { "line": 9, "column": 41 } },
+          "type": "default-arg",
+          "locations": [
+            { "start": { "line": 9, "column": 39 }, "end": { "line": 9, "column": 41 } }
+          ],
+          "line": 9
+        },
+        "1": {
+          "loc": { "start": { "line": 9, "column": 43 }, "end": { "line": 9, "column": 66 } },
+          "type": "default-arg",
+          "locations": [
+            { "start": { "line": 9, "column": 57 }, "end": { "line": 9, "column": 66 } }
+          ],
+          "line": 9
+        },
+        "2": {
+          "loc": { "start": { "line": 10, "column": 2 }, "end": { "line": 17, "column": 3 } },
+          "type": "switch",
+          "locations": [
+            { "start": { "line": 11, "column": 4 }, "end": { "line": 12, "column": 50 } },
+            { "start": { "line": 13, "column": 4 }, "end": { "line": 14, "column": 46 } },
+            { "start": { "line": 15, "column": 4 }, "end": { "line": 16, "column": 19 } }
+          ],
+          "line": 10
+        }
+      },
+      "s": { "0": 1, "1": 0, "2": 1, "3": 0, "4": 0, "5": 0, "6": 0 },
+      "f": { "0": 0, "1": 0 },
+      "b": { "0": [0], "1": [0], "2": [0, 0, 0] },
+      "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
+      "hash": "dbf9b8a76b7222324db3c1f9ff12bcabd84de632"
+    },
+    "/Users/nildutta1/Documents/Assignment/universal-react/app/components/organisms/Experience/index.js": {
+      "path": "/Users/nildutta1/Documents/Assignment/universal-react/app/components/organisms/Experience/index.js",
+      "statementMap": {},
+      "fnMap": {},
+      "branchMap": {},
+      "s": {},
+      "f": {},
+      "b": {},
+      "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
+      "hash": "b621640583b17229223025edc47c8f9b71355bbe"
+    },
+    "/Users/nildutta1/Documents/Assignment/universal-react/app/components/organisms/Experience/Experience.js": {
+      "path": "/Users/nildutta1/Documents/Assignment/universal-react/app/components/organisms/Experience/Experience.js",
+      "statementMap": {
+        "0": { "start": { "line": 9, "column": 19 }, "end": { "line": 42, "column": 1 } },
+        "1": { "start": { "line": 10, "column": 41 }, "end": { "line": 10, "column": 56 } },
+        "2": { "start": { "line": 11, "column": 43 }, "end": { "line": 11, "column": 58 } },
+        "3": { "start": { "line": 13, "column": 2 }, "end": { "line": 24, "column": 9 } },
+        "4": { "start": { "line": 14, "column": 4 }, "end": { "line": 23, "column": 9 } },
+        "5": { "start": { "line": 15, "column": 6 }, "end": { "line": 15, "column": 29 } },
+        "6": { "start": { "line": 16, "column": 21 }, "end": { "line": 20, "column": 8 } },
+        "7": { "start": { "line": 21, "column": 6 }, "end": { "line": 21, "column": 30 } },
+        "8": { "start": { "line": 22, "column": 6 }, "end": { "line": 22, "column": 55 } },
+        "9": { "start": { "line": 22, "column": 23 }, "end": { "line": 22, "column": 55 } },
+        "10": { "start": { "line": 26, "column": 22 }, "end": { "line": 35, "column": 3 } },
+        "11": { "start": { "line": 27, "column": 4 }, "end": { "line": 34, "column": 13 } },
+        "12": { "start": { "line": 29, "column": 10 }, "end": { "line": 32, "column": 12 } },
+        "13": { "start": { "line": 37, "column": 2 }, "end": { "line": 41, "column": 4 } },
+        "14": { "start": { "line": 44, "column": 0 }, "end": { "line": 49, "column": 2 } },
+        "15": { "start": { "line": 46, "column": 23 }, "end": { "line": 46, "column": 28 } },
+        "16": { "start": { "line": 47, "column": 26 }, "end": { "line": 47, "column": 31 } }
+      },
+      "fnMap": {
+        "0": {
+          "name": "(anonymous_0)",
+          "decl": { "start": { "line": 9, "column": 19 }, "end": { "line": 9, "column": 20 } },
+          "loc": { "start": { "line": 9, "column": 48 }, "end": { "line": 42, "column": 1 } },
+          "line": 9
+        },
+        "1": {
+          "name": "(anonymous_1)",
+          "decl": { "start": { "line": 13, "column": 12 }, "end": { "line": 13, "column": 13 } },
+          "loc": { "start": { "line": 13, "column": 18 }, "end": { "line": 24, "column": 3 } },
+          "line": 13
+        },
+        "2": {
+          "name": "(anonymous_2)",
+          "decl": { "start": { "line": 14, "column": 5 }, "end": { "line": 14, "column": 6 } },
+          "loc": { "start": { "line": 14, "column": 17 }, "end": { "line": 23, "column": 5 } },
+          "line": 14
+        },
+        "3": {
+          "name": "(anonymous_3)",
+          "decl": { "start": { "line": 26, "column": 22 }, "end": { "line": 26, "column": 23 } },
+          "loc": { "start": { "line": 26, "column": 28 }, "end": { "line": 35, "column": 3 } },
+          "line": 26
+        },
+        "4": {
+          "name": "(anonymous_4)",
+          "decl": { "start": { "line": 28, "column": 23 }, "end": { "line": 28, "column": 24 } },
+          "loc": { "start": { "line": 29, "column": 10 }, "end": { "line": 32, "column": 12 } },
+          "line": 29
+        },
+        "5": {
+          "name": "(anonymous_5)",
+          "decl": { "start": { "line": 46, "column": 17 }, "end": { "line": 46, "column": 18 } },
+          "loc": { "start": { "line": 46, "column": 23 }, "end": { "line": 46, "column": 28 } },
+          "line": 46
+        },
+        "6": {
+          "name": "(anonymous_6)",
+          "decl": { "start": { "line": 47, "column": 20 }, "end": { "line": 47, "column": 21 } },
+          "loc": { "start": { "line": 47, "column": 26 }, "end": { "line": 47, "column": 31 } },
+          "line": 47
+        }
+      },
+      "branchMap": {
+        "0": {
+          "loc": { "start": { "line": 9, "column": 22 }, "end": { "line": 9, "column": 41 } },
+          "type": "default-arg",
+          "locations": [
+            { "start": { "line": 9, "column": 35 }, "end": { "line": 9, "column": 41 } }
+          ],
+          "line": 9
+        },
+        "1": {
+          "loc": { "start": { "line": 22, "column": 6 }, "end": { "line": 22, "column": 55 } },
+          "type": "if",
+          "locations": [
+            { "start": { "line": 22, "column": 6 }, "end": { "line": 22, "column": 55 } },
+            { "start": { "line": 22, "column": 6 }, "end": { "line": 22, "column": 55 } }
+          ],
+          "line": 22
+        },
+        "2": {
+          "loc": { "start": { "line": 27, "column": 11 }, "end": { "line": 34, "column": 12 } },
+          "type": "cond-expr",
+          "locations": [
+            { "start": { "line": 28, "column": 8 }, "end": { "line": 33, "column": 9 } },
+            { "start": { "line": 34, "column": 8 }, "end": { "line": 34, "column": 12 } }
+          ],
+          "line": 27
+        },
+        "3": {
+          "loc": { "start": { "line": 27, "column": 11 }, "end": { "line": 27, "column": 51 } },
+          "type": "binary-expr",
+          "locations": [
+            { "start": { "line": 27, "column": 11 }, "end": { "line": 27, "column": 22 } },
+            { "start": { "line": 27, "column": 26 }, "end": { "line": 27, "column": 51 } }
+          ],
+          "line": 27
+        }
+      },
+      "s": {
+        "0": 1,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0,
+        "12": 0,
+        "13": 0,
+        "14": 1,
+        "15": 0,
+        "16": 0
+      },
+      "f": { "0": 0, "1": 0, "2": 0, "3": 0, "4": 0, "5": 0, "6": 0 },
+      "b": { "0": [0], "1": [0, 0], "2": [0, 0], "3": [0, 0] },
+      "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
+      "hash": "89a99eed1c20bb193b89263dddb78a6ded1b40ba"
+    },
+    "/Users/nildutta1/Documents/Assignment/universal-react/app/components/molecules/TopBanner/index.js": {
+      "path": "/Users/nildutta1/Documents/Assignment/universal-react/app/components/molecules/TopBanner/index.js",
+      "statementMap": {},
+      "fnMap": {},
+      "branchMap": {},
+      "s": {},
+      "f": {},
+      "b": {},
+      "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
+      "hash": "08875149e337dc8e0edda574caf353ee00cbfc00"
+    },
+    "/Users/nildutta1/Documents/Assignment/universal-react/app/components/molecules/TopBanner/TopBanner.js": {
+      "path": "/Users/nildutta1/Documents/Assignment/universal-react/app/components/molecules/TopBanner/TopBanner.js",
+      "statementMap": {
+        "0": { "start": { "line": 14, "column": 16 }, "end": { "line": 14, "column": 18 } },
+        "1": { "start": { "line": 16, "column": 18 }, "end": { "line": 16, "column": 20 } },
+        "2": { "start": { "line": 18, "column": 16 }, "end": { "line": 18, "column": 20 } },
+        "3": { "start": { "line": 20, "column": 15 }, "end": { "line": 20, "column": 16 } },
+        "4": { "start": { "line": 22, "column": 9 }, "end": { "line": 22, "column": 10 } },
+        "5": { "start": { "line": 24, "column": 17 }, "end": { "line": 24, "column": 26 } },
+        "6": { "start": { "line": 28, "column": 26 }, "end": { "line": 28, "column": 28 } },
+        "7": { "start": { "line": 31, "column": 29 }, "end": { "line": 31, "column": 39 } },
+        "8": { "start": { "line": 32, "column": 4 }, "end": { "line": 32, "column": 31 } },
+        "9": { "start": { "line": 33, "column": 4 }, "end": { "line": 33, "column": 18 } },
+        "10": { "start": { "line": 34, "column": 4 }, "end": { "line": 34, "column": 24 } },
+        "11": { "start": { "line": 35, "column": 4 }, "end": { "line": 40, "column": 5 } },
+        "12": { "start": { "line": 36, "column": 6 }, "end": { "line": 36, "column": 55 } },
+        "13": { "start": { "line": 37, "column": 6 }, "end": { "line": 39, "column": 27 } },
+        "14": { "start": { "line": 38, "column": 8 }, "end": { "line": 38, "column": 20 } },
+        "15": { "start": { "line": 43, "column": 9 }, "end": { "line": 58, "column": 3 } },
+        "16": { "start": { "line": 45, "column": 17 }, "end": { "line": 45, "column": 73 } },
+        "17": { "start": { "line": 46, "column": 4 }, "end": { "line": 46, "column": 34 } },
+        "18": { "start": { "line": 47, "column": 4 }, "end": { "line": 47, "column": 42 } },
+        "19": { "start": { "line": 50, "column": 4 }, "end": { "line": 57, "column": 5 } },
+        "20": { "start": { "line": 51, "column": 6 }, "end": { "line": 51, "column": 39 } },
+        "21": { "start": { "line": 52, "column": 6 }, "end": { "line": 56, "column": 27 } },
+        "22": { "start": { "line": 53, "column": 8 }, "end": { "line": 55, "column": 31 } },
+        "23": { "start": { "line": 54, "column": 10 }, "end": { "line": 54, "column": 24 } },
+        "24": { "start": { "line": 60, "column": 11 }, "end": { "line": 81, "column": 3 } },
+        "25": { "start": { "line": 62, "column": 17 }, "end": { "line": 62, "column": 73 } },
+        "26": { "start": { "line": 63, "column": 4 }, "end": { "line": 63, "column": 34 } },
+        "27": { "start": { "line": 64, "column": 4 }, "end": { "line": 64, "column": 42 } },
+        "28": { "start": { "line": 65, "column": 4 }, "end": { "line": 80, "column": 5 } },
+        "29": { "start": { "line": 66, "column": 6 }, "end": { "line": 66, "column": 39 } },
+        "30": { "start": { "line": 67, "column": 26 }, "end": { "line": 67, "column": 48 } },
+        "31": { "start": { "line": 68, "column": 6 }, "end": { "line": 72, "column": 7 } },
+        "32": { "start": { "line": 69, "column": 8 }, "end": { "line": 69, "column": 22 } },
+        "33": { "start": { "line": 71, "column": 8 }, "end": { "line": 71, "column": 34 } },
+        "34": { "start": { "line": 74, "column": 6 }, "end": { "line": 74, "column": 26 } },
+        "35": { "start": { "line": 75, "column": 6 }, "end": { "line": 79, "column": 14 } },
+        "36": { "start": { "line": 76, "column": 8 }, "end": { "line": 78, "column": 29 } },
+        "37": { "start": { "line": 77, "column": 10 }, "end": { "line": 77, "column": 22 } },
+        "38": { "start": { "line": 84, "column": 69 }, "end": { "line": 84, "column": 79 } },
+        "39": { "start": { "line": 85, "column": 4 }, "end": { "line": 94, "column": 6 } },
+        "40": { "start": { "line": 98, "column": 0 }, "end": { "line": 98, "column": 28 } }
+      },
+      "fnMap": {
+        "0": {
+          "name": "(anonymous_0)",
+          "decl": { "start": { "line": 30, "column": 2 }, "end": { "line": 30, "column": 3 } },
+          "loc": { "start": { "line": 30, "column": 22 }, "end": { "line": 41, "column": 3 } },
+          "line": 30
+        },
+        "1": {
+          "name": "(anonymous_1)",
+          "decl": { "start": { "line": 37, "column": 38 }, "end": { "line": 37, "column": 39 } },
+          "loc": { "start": { "line": 37, "column": 44 }, "end": { "line": 39, "column": 7 } },
+          "line": 37
+        },
+        "2": {
+          "name": "(anonymous_2)",
+          "decl": { "start": { "line": 43, "column": 9 }, "end": { "line": 43, "column": 10 } },
+          "loc": { "start": { "line": 43, "column": 15 }, "end": { "line": 58, "column": 3 } },
+          "line": 43
+        },
+        "3": {
+          "name": "(anonymous_3)",
+          "decl": { "start": { "line": 52, "column": 17 }, "end": { "line": 52, "column": 18 } },
+          "loc": { "start": { "line": 52, "column": 23 }, "end": { "line": 56, "column": 7 } },
+          "line": 52
+        },
+        "4": {
+          "name": "(anonymous_4)",
+          "decl": { "start": { "line": 53, "column": 40 }, "end": { "line": 53, "column": 41 } },
+          "loc": { "start": { "line": 53, "column": 46 }, "end": { "line": 55, "column": 9 } },
+          "line": 53
+        },
+        "5": {
+          "name": "(anonymous_5)",
+          "decl": { "start": { "line": 60, "column": 11 }, "end": { "line": 60, "column": 12 } },
+          "loc": { "start": { "line": 60, "column": 17 }, "end": { "line": 81, "column": 3 } },
+          "line": 60
+        },
+        "6": {
+          "name": "(anonymous_6)",
+          "decl": { "start": { "line": 75, "column": 17 }, "end": { "line": 75, "column": 18 } },
+          "loc": { "start": { "line": 75, "column": 23 }, "end": { "line": 79, "column": 7 } },
+          "line": 75
+        },
+        "7": {
+          "name": "(anonymous_7)",
+          "decl": { "start": { "line": 76, "column": 40 }, "end": { "line": 76, "column": 41 } },
+          "loc": { "start": { "line": 76, "column": 46 }, "end": { "line": 78, "column": 9 } },
+          "line": 76
+        },
+        "8": {
+          "name": "(anonymous_8)",
+          "decl": { "start": { "line": 83, "column": 2 }, "end": { "line": 83, "column": 3 } },
+          "loc": { "start": { "line": 83, "column": 11 }, "end": { "line": 95, "column": 3 } },
+          "line": 83
+        }
+      },
+      "branchMap": {
+        "0": {
+          "loc": { "start": { "line": 35, "column": 4 }, "end": { "line": 40, "column": 5 } },
+          "type": "if",
+          "locations": [
+            { "start": { "line": 35, "column": 4 }, "end": { "line": 40, "column": 5 } },
+            { "start": { "line": 35, "column": 4 }, "end": { "line": 40, "column": 5 } }
+          ],
+          "line": 35
+        },
+        "1": {
+          "loc": { "start": { "line": 50, "column": 4 }, "end": { "line": 57, "column": 5 } },
+          "type": "if",
+          "locations": [
+            { "start": { "line": 50, "column": 4 }, "end": { "line": 57, "column": 5 } },
+            { "start": { "line": 50, "column": 4 }, "end": { "line": 57, "column": 5 } }
+          ],
+          "line": 50
+        },
+        "2": {
+          "loc": { "start": { "line": 65, "column": 4 }, "end": { "line": 80, "column": 5 } },
+          "type": "if",
+          "locations": [
+            { "start": { "line": 65, "column": 4 }, "end": { "line": 80, "column": 5 } },
+            { "start": { "line": 65, "column": 4 }, "end": { "line": 80, "column": 5 } }
+          ],
+          "line": 65
+        },
+        "3": {
+          "loc": { "start": { "line": 68, "column": 6 }, "end": { "line": 72, "column": 7 } },
+          "type": "if",
+          "locations": [
+            { "start": { "line": 68, "column": 6 }, "end": { "line": 72, "column": 7 } },
+            { "start": { "line": 68, "column": 6 }, "end": { "line": 72, "column": 7 } }
+          ],
+          "line": 68
+        },
+        "4": {
+          "loc": { "start": { "line": 89, "column": 11 }, "end": { "line": 89, "column": 72 } },
+          "type": "binary-expr",
+          "locations": [
+            { "start": { "line": 89, "column": 11 }, "end": { "line": 89, "column": 21 } },
+            { "start": { "line": 89, "column": 25 }, "end": { "line": 89, "column": 72 } }
+          ],
+          "line": 89
+        },
+        "5": {
+          "loc": { "start": { "line": 90, "column": 11 }, "end": { "line": 90, "column": 40 } },
+          "type": "binary-expr",
+          "locations": [
+            { "start": { "line": 90, "column": 11 }, "end": { "line": 90, "column": 19 } },
+            { "start": { "line": 90, "column": 23 }, "end": { "line": 90, "column": 40 } }
+          ],
+          "line": 90
+        },
+        "6": {
+          "loc": { "start": { "line": 91, "column": 11 }, "end": { "line": 91, "column": 51 } },
+          "type": "binary-expr",
+          "locations": [
+            { "start": { "line": 91, "column": 11 }, "end": { "line": 91, "column": 23 } },
+            { "start": { "line": 91, "column": 27 }, "end": { "line": 91, "column": 51 } }
+          ],
+          "line": 91
+        }
+      },
+      "s": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0,
+        "12": 0,
+        "13": 0,
+        "14": 0,
+        "15": 0,
+        "16": 0,
+        "17": 0,
+        "18": 0,
+        "19": 0,
+        "20": 0,
+        "21": 0,
+        "22": 0,
+        "23": 0,
+        "24": 0,
+        "25": 0,
+        "26": 0,
+        "27": 0,
+        "28": 0,
+        "29": 0,
+        "30": 0,
+        "31": 0,
+        "32": 0,
+        "33": 0,
+        "34": 0,
+        "35": 0,
+        "36": 0,
+        "37": 0,
+        "38": 0,
+        "39": 0,
+        "40": 4
+      },
+      "f": { "0": 0, "1": 0, "2": 0, "3": 0, "4": 0, "5": 0, "6": 0, "7": 0, "8": 0 },
+      "b": {
+        "0": [0, 0],
+        "1": [0, 0],
+        "2": [0, 0],
+        "3": [0, 0],
+        "4": [0, 0],
+        "5": [0, 0],
+        "6": [0, 0]
+      },
+      "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
+      "hash": "0b2f1a3ec68601e9303f4fbe92c54f297b1cfc7b"
+    },
+    "/Users/nildutta1/Documents/Assignment/universal-react/app/components/molecules/TopBanner/TopBanner.style.js": {
+      "path": "/Users/nildutta1/Documents/Assignment/universal-react/app/components/molecules/TopBanner/TopBanner.style.js",
+      "statementMap": {},
+      "fnMap": {},
+      "branchMap": {},
+      "s": {},
+      "f": {},
+      "b": {},
+      "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
+      "hash": "1916864cb957004cdfc19334a1979904c3f69a58"
+    },
+    "/Users/nildutta1/Documents/Assignment/universal-react/app/components/organisms/LearnContent/index.js": {
+      "path": "/Users/nildutta1/Documents/Assignment/universal-react/app/components/organisms/LearnContent/index.js",
+      "statementMap": {},
+      "fnMap": {},
+      "branchMap": {},
+      "s": {},
+      "f": {},
+      "b": {},
+      "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
+      "hash": "46949b84ed748a35e8bd5f220f92d366c2d7a581"
+    },
+    "/Users/nildutta1/Documents/Assignment/universal-react/app/components/organisms/LearnContent/LearnContent.js": {
+      "path": "/Users/nildutta1/Documents/Assignment/universal-react/app/components/organisms/LearnContent/LearnContent.js",
+      "statementMap": {
+        "0": { "start": { "line": 5, "column": 18 }, "end": { "line": 48, "column": 1 } },
+        "1": { "start": { "line": 49, "column": 21 }, "end": { "line": 63, "column": 1 } },
+        "2": { "start": { "line": 50, "column": 2 }, "end": { "line": 62, "column": 16 } },
+        "3": { "start": { "line": 53, "column": 8 }, "end": { "line": 59, "column": 10 } }
+      },
+      "fnMap": {
+        "0": {
+          "name": "(anonymous_0)",
+          "decl": { "start": { "line": 49, "column": 21 }, "end": { "line": 49, "column": 22 } },
+          "loc": { "start": { "line": 50, "column": 2 }, "end": { "line": 62, "column": 16 } },
+          "line": 50
+        },
+        "1": {
+          "name": "(anonymous_1)",
+          "decl": { "start": { "line": 52, "column": 21 }, "end": { "line": 52, "column": 22 } },
+          "loc": { "start": { "line": 52, "column": 35 }, "end": { "line": 60, "column": 7 } },
+          "line": 52
+        }
+      },
+      "branchMap": {
+        "0": {
+          "loc": { "start": { "line": 55, "column": 55 }, "end": { "line": 55, "column": 87 } },
+          "type": "cond-expr",
+          "locations": [
+            { "start": { "line": 55, "column": 70 }, "end": { "line": 55, "column": 80 } },
+            { "start": { "line": 55, "column": 83 }, "end": { "line": 55, "column": 87 } }
+          ],
+          "line": 55
+        }
+      },
+      "s": { "0": 1, "1": 1, "2": 0, "3": 0 },
+      "f": { "0": 0, "1": 0 },
+      "b": { "0": [0, 0] },
+      "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
+      "hash": "77b36391f56192d43532e8f78cd04608f4bcd0a0"
+    },
+    "/Users/nildutta1/Documents/Assignment/universal-react/app/components/molecules/ArticleWrap/index.js": {
+      "path": "/Users/nildutta1/Documents/Assignment/universal-react/app/components/molecules/ArticleWrap/index.js",
+      "statementMap": {},
+      "fnMap": {},
+      "branchMap": {},
+      "s": {},
+      "f": {},
+      "b": {},
+      "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
+      "hash": "a7e76e6b3d696f740f9e5ff20339ea5207deaaaf"
+    },
+    "/Users/nildutta1/Documents/Assignment/universal-react/app/components/molecules/ArticleWrap/ArticleWrap.js": {
+      "path": "/Users/nildutta1/Documents/Assignment/universal-react/app/components/molecules/ArticleWrap/ArticleWrap.js",
+      "statementMap": {
+        "0": { "start": { "line": 15, "column": 50 }, "end": { "line": 15, "column": 60 } },
+        "1": { "start": { "line": 16, "column": 24 }, "end": { "line": 16, "column": 34 } },
+        "2": { "start": { "line": 17, "column": 25 }, "end": { "line": 17, "column": 41 } },
+        "3": { "start": { "line": 18, "column": 4 }, "end": { "line": 21, "column": 5 } },
+        "4": { "start": { "line": 19, "column": 6 }, "end": { "line": 19, "column": 80 } },
+        "5": { "start": { "line": 20, "column": 6 }, "end": { "line": 20, "column": 78 } },
+        "6": { "start": { "line": 23, "column": 4 }, "end": { "line": 31, "column": 6 } }
+      },
+      "fnMap": {
+        "0": {
+          "name": "(anonymous_0)",
+          "decl": { "start": { "line": 14, "column": 2 }, "end": { "line": 14, "column": 3 } },
+          "loc": { "start": { "line": 14, "column": 11 }, "end": { "line": 32, "column": 3 } },
+          "line": 14
+        }
+      },
+      "branchMap": {
+        "0": {
+          "loc": { "start": { "line": 18, "column": 4 }, "end": { "line": 21, "column": 5 } },
+          "type": "if",
+          "locations": [
+            { "start": { "line": 18, "column": 4 }, "end": { "line": 21, "column": 5 } },
+            { "start": { "line": 18, "column": 4 }, "end": { "line": 21, "column": 5 } }
+          ],
+          "line": 18
+        },
+        "1": {
+          "loc": { "start": { "line": 19, "column": 18 }, "end": { "line": 19, "column": 79 } },
+          "type": "cond-expr",
+          "locations": [
+            { "start": { "line": 19, "column": 30 }, "end": { "line": 19, "column": 65 } },
+            { "start": { "line": 19, "column": 68 }, "end": { "line": 19, "column": 79 } }
+          ],
+          "line": 19
+        },
+        "2": {
+          "loc": { "start": { "line": 20, "column": 23 }, "end": { "line": 20, "column": 77 } },
+          "type": "cond-expr",
+          "locations": [
+            { "start": { "line": 20, "column": 40 }, "end": { "line": 20, "column": 66 } },
+            { "start": { "line": 20, "column": 69 }, "end": { "line": 20, "column": 77 } }
+          ],
+          "line": 20
+        },
+        "3": {
+          "loc": { "start": { "line": 27, "column": 11 }, "end": { "line": 27, "column": 68 } },
+          "type": "binary-expr",
+          "locations": [
+            { "start": { "line": 27, "column": 11 }, "end": { "line": 27, "column": 19 } },
+            { "start": { "line": 27, "column": 23 }, "end": { "line": 27, "column": 68 } }
+          ],
+          "line": 27
+        }
+      },
+      "s": { "0": 0, "1": 0, "2": 0, "3": 0, "4": 0, "5": 0, "6": 0 },
+      "f": { "0": 0 },
+      "b": { "0": [0, 0], "1": [0, 0], "2": [0, 0], "3": [0, 0] },
+      "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
+      "hash": "9372766c513b6c99a2094707b2fcee1856987502"
+    },
+    "/Users/nildutta1/Documents/Assignment/universal-react/app/components/molecules/ArticleWrap/ArticleWrap.style.js": {
+      "path": "/Users/nildutta1/Documents/Assignment/universal-react/app/components/molecules/ArticleWrap/ArticleWrap.style.js",
+      "statementMap": {},
+      "fnMap": {},
+      "branchMap": {},
+      "s": {},
+      "f": {},
+      "b": {},
+      "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
+      "hash": "eb23d5910235cffe4f47fe456a4a94832de2a638"
+    },
+    "/Users/nildutta1/Documents/Assignment/universal-react/app/components/templates/HomePage/index.js": {
+      "path": "/Users/nildutta1/Documents/Assignment/universal-react/app/components/templates/HomePage/index.js",
+      "statementMap": {},
+      "fnMap": {},
+      "branchMap": {},
+      "s": {},
+      "f": {},
+      "b": {},
+      "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
+      "hash": "2f661ff610754ac8614fde75f615f45f367a22c9"
+    },
+    "/Users/nildutta1/Documents/Assignment/universal-react/app/components/templates/HomePage/HomePage.js": {
+      "path": "/Users/nildutta1/Documents/Assignment/universal-react/app/components/templates/HomePage/HomePage.js",
+      "statementMap": {
+        "0": { "start": { "line": 15, "column": 12 }, "end": { "line": 15, "column": 56 } },
+        "1": { "start": { "line": 17, "column": 17 }, "end": { "line": 64, "column": 1 } },
+        "2": { "start": { "line": 18, "column": 30 }, "end": { "line": 18, "column": 43 } },
+        "3": { "start": { "line": 19, "column": 24 }, "end": { "line": 19, "column": 34 } },
+        "4": { "start": { "line": 20, "column": 28 }, "end": { "line": 20, "column": 40 } },
+        "5": { "start": { "line": 21, "column": 34 }, "end": { "line": 21, "column": 48 } },
+        "6": { "start": { "line": 23, "column": 17 }, "end": { "line": 23, "column": 28 } },
+        "7": { "start": { "line": 24, "column": 20 }, "end": { "line": 24, "column": 26 } },
+        "8": { "start": { "line": 26, "column": 2 }, "end": { "line": 42, "column": 18 } },
+        "9": { "start": { "line": 27, "column": 4 }, "end": { "line": 27, "column": 23 } },
+        "10": { "start": { "line": 28, "column": 4 }, "end": { "line": 28, "column": 27 } },
+        "11": { "start": { "line": 29, "column": 21 }, "end": { "line": 29, "column": 45 } },
+        "12": { "start": { "line": 30, "column": 4 }, "end": { "line": 41, "column": 9 } },
+        "13": { "start": { "line": 33, "column": 19 }, "end": { "line": 33, "column": 27 } },
+        "14": { "start": { "line": 35, "column": 8 }, "end": { "line": 35, "column": 35 } },
+        "15": { "start": { "line": 36, "column": 8 }, "end": { "line": 36, "column": 26 } },
+        "16": { "start": { "line": 39, "column": 8 }, "end": { "line": 39, "column": 21 } },
+        "17": { "start": { "line": 40, "column": 8 }, "end": { "line": 40, "column": 26 } },
+        "18": { "start": { "line": 44, "column": 2 }, "end": { "line": 63, "column": 4 } },
+        "19": { "start": { "line": 66, "column": 0 }, "end": { "line": 73, "column": 2 } }
+      },
+      "fnMap": {
+        "0": {
+          "name": "(anonymous_0)",
+          "decl": { "start": { "line": 17, "column": 17 }, "end": { "line": 17, "column": 18 } },
+          "loc": { "start": { "line": 17, "column": 65 }, "end": { "line": 64, "column": 1 } },
+          "line": 17
+        },
+        "1": {
+          "name": "(anonymous_1)",
+          "decl": { "start": { "line": 26, "column": 12 }, "end": { "line": 26, "column": 13 } },
+          "loc": { "start": { "line": 26, "column": 18 }, "end": { "line": 42, "column": 3 } },
+          "line": 26
+        },
+        "2": {
+          "name": "(anonymous_2)",
+          "decl": { "start": { "line": 33, "column": 12 }, "end": { "line": 33, "column": 13 } },
+          "loc": { "start": { "line": 33, "column": 19 }, "end": { "line": 33, "column": 27 } },
+          "line": 33
+        },
+        "3": {
+          "name": "(anonymous_3)",
+          "decl": { "start": { "line": 34, "column": 12 }, "end": { "line": 34, "column": 13 } },
+          "loc": { "start": { "line": 34, "column": 24 }, "end": { "line": 37, "column": 7 } },
+          "line": 34
+        },
+        "4": {
+          "name": "(anonymous_4)",
+          "decl": { "start": { "line": 38, "column": 13 }, "end": { "line": 38, "column": 14 } },
+          "loc": { "start": { "line": 38, "column": 19 }, "end": { "line": 41, "column": 7 } },
+          "line": 38
+        }
+      },
+      "branchMap": {
+        "0": {
+          "loc": { "start": { "line": 49, "column": 9 }, "end": { "line": 60, "column": 9 } },
+          "type": "binary-expr",
+          "locations": [
+            { "start": { "line": 49, "column": 9 }, "end": { "line": 49, "column": 19 } },
+            { "start": { "line": 50, "column": 10 }, "end": { "line": 59, "column": 16 } }
+          ],
+          "line": 49
+        }
+      },
+      "s": {
+        "0": 3,
+        "1": 3,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0,
+        "12": 0,
+        "13": 0,
+        "14": 0,
+        "15": 0,
+        "16": 0,
+        "17": 0,
+        "18": 0,
+        "19": 3
+      },
+      "f": { "0": 0, "1": 0, "2": 0, "3": 0, "4": 0 },
+      "b": { "0": [0, 0] },
+      "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
+      "hash": "2a7207b31aee262550cd21795efa3c063aac17bb"
+    },
+    "/Users/nildutta1/Documents/Assignment/universal-react/app/components/organisms/ProductListing/index.js": {
+      "path": "/Users/nildutta1/Documents/Assignment/universal-react/app/components/organisms/ProductListing/index.js",
+      "statementMap": {},
+      "fnMap": {},
+      "branchMap": {},
+      "s": {},
+      "f": {},
+      "b": {},
+      "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
+      "hash": "4c832922cbec58fbadd5583968430fae73ef185f"
+    },
+    "/Users/nildutta1/Documents/Assignment/universal-react/app/components/organisms/ProductListing/ProductListing.js": {
+      "path": "/Users/nildutta1/Documents/Assignment/universal-react/app/components/organisms/ProductListing/ProductListing.js",
+      "statementMap": {
+        "0": { "start": { "line": 9, "column": 4 }, "end": { "line": 9, "column": 17 } },
+        "1": { "start": { "line": 10, "column": 4 }, "end": { "line": 10, "column": 39 } },
+        "2": { "start": { "line": 11, "column": 4 }, "end": { "line": 11, "column": 20 } },
+        "3": { "start": { "line": 14, "column": 13 }, "end": { "line": 21, "column": 3 } },
+        "4": { "start": { "line": 15, "column": 22 }, "end": { "line": 15, "column": 44 } },
+        "5": { "start": { "line": 16, "column": 4 }, "end": { "line": 20, "column": 5 } },
+        "6": { "start": { "line": 17, "column": 6 }, "end": { "line": 17, "column": 37 } },
+        "7": { "start": { "line": 19, "column": 6 }, "end": { "line": 19, "column": 23 } },
+        "8": { "start": { "line": 24, "column": 21 }, "end": { "line": 24, "column": 31 } },
+        "9": { "start": { "line": 25, "column": 4 }, "end": { "line": 37, "column": 6 } },
+        "10": { "start": { "line": 33, "column": 12 }, "end": { "line": 33, "column": 68 } },
+        "11": { "start": { "line": 41, "column": 0 }, "end": { "line": 43, "column": 2 } },
+        "12": { "start": { "line": 44, "column": 0 }, "end": { "line": 46, "column": 2 } }
+      },
+      "fnMap": {
+        "0": {
+          "name": "(anonymous_0)",
+          "decl": { "start": { "line": 8, "column": 2 }, "end": { "line": 8, "column": 3 } },
+          "loc": { "start": { "line": 8, "column": 21 }, "end": { "line": 12, "column": 3 } },
+          "line": 8
+        },
+        "1": {
+          "name": "(anonymous_1)",
+          "decl": { "start": { "line": 14, "column": 13 }, "end": { "line": 14, "column": 14 } },
+          "loc": { "start": { "line": 14, "column": 19 }, "end": { "line": 21, "column": 3 } },
+          "line": 14
+        },
+        "2": {
+          "name": "(anonymous_2)",
+          "decl": { "start": { "line": 23, "column": 2 }, "end": { "line": 23, "column": 3 } },
+          "loc": { "start": { "line": 23, "column": 11 }, "end": { "line": 38, "column": 3 } },
+          "line": 23
+        },
+        "3": {
+          "name": "(anonymous_3)",
+          "decl": { "start": { "line": 32, "column": 19 }, "end": { "line": 32, "column": 20 } },
+          "loc": { "start": { "line": 32, "column": 27 }, "end": { "line": 34, "column": 11 } },
+          "line": 32
+        }
+      },
+      "branchMap": {
+        "0": {
+          "loc": { "start": { "line": 16, "column": 4 }, "end": { "line": 20, "column": 5 } },
+          "type": "if",
+          "locations": [
+            { "start": { "line": 16, "column": 4 }, "end": { "line": 20, "column": 5 } },
+            { "start": { "line": 16, "column": 4 }, "end": { "line": 20, "column": 5 } }
+          ],
+          "line": 16
+        },
+        "1": {
+          "loc": { "start": { "line": 31, "column": 9 }, "end": { "line": 34, "column": 12 } },
+          "type": "binary-expr",
+          "locations": [
+            { "start": { "line": 31, "column": 9 }, "end": { "line": 31, "column": 13 } },
+            { "start": { "line": 32, "column": 10 }, "end": { "line": 34, "column": 12 } }
+          ],
+          "line": 31
+        },
+        "2": {
+          "loc": { "start": { "line": 35, "column": 9 }, "end": { "line": 35, "column": 46 } },
+          "type": "binary-expr",
+          "locations": [
+            { "start": { "line": 35, "column": 9 }, "end": { "line": 35, "column": 14 } },
+            { "start": { "line": 35, "column": 18 }, "end": { "line": 35, "column": 46 } }
+          ],
+          "line": 35
+        }
+      },
+      "s": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 3,
+        "12": 3
+      },
+      "f": { "0": 0, "1": 0, "2": 0, "3": 0 },
+      "b": { "0": [0, 0], "1": [0, 0], "2": [0, 0] },
+      "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
+      "hash": "40fea86164a821a9ac79b6bb87c674b9e33eac44"
+    },
+    "/Users/nildutta1/Documents/Assignment/universal-react/app/components/organisms/ProductListGrid/index.js": {
+      "path": "/Users/nildutta1/Documents/Assignment/universal-react/app/components/organisms/ProductListGrid/index.js",
+      "statementMap": {},
+      "fnMap": {},
+      "branchMap": {},
+      "s": {},
+      "f": {},
+      "b": {},
+      "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
+      "hash": "56094e5c8474caef850046cae2a977e57e3f8cf4"
+    },
+    "/Users/nildutta1/Documents/Assignment/universal-react/app/components/organisms/ProductListGrid/ProductListGrid.js": {
+      "path": "/Users/nildutta1/Documents/Assignment/universal-react/app/components/organisms/ProductListGrid/ProductListGrid.js",
+      "statementMap": {
+        "0": { "start": { "line": 8, "column": 19 }, "end": { "line": 15, "column": 3 } },
+        "1": { "start": { "line": 9, "column": 4 }, "end": { "line": 14, "column": 6 } },
+        "2": { "start": { "line": 18, "column": 35 }, "end": { "line": 18, "column": 45 } },
+        "3": { "start": { "line": 19, "column": 75 }, "end": { "line": 19, "column": 82 } },
+        "4": { "start": { "line": 20, "column": 24 }, "end": { "line": 26, "column": 5 } },
+        "5": { "start": { "line": 27, "column": 4 }, "end": { "line": 42, "column": 6 } },
+        "6": { "start": { "line": 35, "column": 10 }, "end": { "line": 39, "column": 12 } },
+        "7": { "start": { "line": 46, "column": 0 }, "end": { "line": 49, "column": 2 } },
+        "8": { "start": { "line": 51, "column": 0 }, "end": { "line": 54, "column": 2 } }
+      },
+      "fnMap": {
+        "0": {
+          "name": "(anonymous_0)",
+          "decl": { "start": { "line": 8, "column": 19 }, "end": { "line": 8, "column": 20 } },
+          "loc": { "start": { "line": 8, "column": 36 }, "end": { "line": 15, "column": 3 } },
+          "line": 8
+        },
+        "1": {
+          "name": "(anonymous_1)",
+          "decl": { "start": { "line": 17, "column": 2 }, "end": { "line": 17, "column": 3 } },
+          "loc": { "start": { "line": 17, "column": 11 }, "end": { "line": 43, "column": 3 } },
+          "line": 17
+        },
+        "2": {
+          "name": "(anonymous_2)",
+          "decl": { "start": { "line": 34, "column": 25 }, "end": { "line": 34, "column": 26 } },
+          "loc": { "start": { "line": 34, "column": 33 }, "end": { "line": 40, "column": 9 } },
+          "line": 34
+        }
+      },
+      "branchMap": {},
+      "s": { "0": 0, "1": 0, "2": 0, "3": 0, "4": 0, "5": 0, "6": 0, "7": 3, "8": 3 },
+      "f": { "0": 0, "1": 0, "2": 0 },
+      "b": {},
+      "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
+      "hash": "acc7aa0a58904ae42606756ddfba7c77ddb2ad8a"
+    },
+    "/Users/nildutta1/Documents/Assignment/universal-react/app/components/organisms/ProductListGrid/ProductListGrid.style.js": {
+      "path": "/Users/nildutta1/Documents/Assignment/universal-react/app/components/organisms/ProductListGrid/ProductListGrid.style.js",
+      "statementMap": {},
+      "fnMap": {},
+      "branchMap": {},
+      "s": {},
+      "f": {},
+      "b": {},
+      "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
+      "hash": "7f3767c0b203057e723a038f74bc9f8d79c58966"
+    },
+    "/Users/nildutta1/Documents/Assignment/universal-react/app/components/organisms/Filter/index.js": {
+      "path": "/Users/nildutta1/Documents/Assignment/universal-react/app/components/organisms/Filter/index.js",
+      "statementMap": {},
+      "fnMap": {},
+      "branchMap": {},
+      "s": {},
+      "f": {},
+      "b": {},
+      "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
+      "hash": "3717b255c4cd2af9fa990be46bb5b4b30727bc0e"
+    },
+    "/Users/nildutta1/Documents/Assignment/universal-react/app/components/organisms/Filter/Filter.js": {
+      "path": "/Users/nildutta1/Documents/Assignment/universal-react/app/components/organisms/Filter/Filter.js",
+      "statementMap": {
+        "0": { "start": { "line": 6, "column": 4 }, "end": { "line": 10, "column": 6 } }
+      },
+      "fnMap": {
+        "0": {
+          "name": "(anonymous_0)",
+          "decl": { "start": { "line": 5, "column": 2 }, "end": { "line": 5, "column": 3 } },
+          "loc": { "start": { "line": 5, "column": 11 }, "end": { "line": 11, "column": 3 } },
+          "line": 5
+        }
+      },
+      "branchMap": {},
+      "s": { "0": 0 },
+      "f": { "0": 0 },
+      "b": {},
+      "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
+      "hash": "ec40d15689e391e5971174bd4325f3fe75657a91"
+    },
+    "/Users/nildutta1/Documents/Assignment/universal-react/app/components/templates/HomePage/HomePage.style.js": {
+      "path": "/Users/nildutta1/Documents/Assignment/universal-react/app/components/templates/HomePage/HomePage.style.js",
+      "statementMap": {},
+      "fnMap": {},
+      "branchMap": {},
+      "s": {},
+      "f": {},
+      "b": {},
+      "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
+      "hash": "e1bddbcb6f7c2fd9228485580318b301b98cbb1e"
+    },
+    "/Users/nildutta1/Documents/Assignment/universal-react/app/components/molecules/NavBar/index.js": {
+      "path": "/Users/nildutta1/Documents/Assignment/universal-react/app/components/molecules/NavBar/index.js",
+      "statementMap": {},
+      "fnMap": {},
+      "branchMap": {},
+      "s": {},
+      "f": {},
+      "b": {},
+      "hash": "417ffdbb08a614a09e9db9e272e489b609d97aae"
+    },
+    "/Users/nildutta1/Documents/Assignment/universal-react/app/components/molecules/NavBar/types/index.js": {
+      "path": "/Users/nildutta1/Documents/Assignment/universal-react/app/components/molecules/NavBar/types/index.js",
+      "statementMap": {},
+      "fnMap": {},
+      "branchMap": {},
+      "s": {},
+      "f": {},
+      "b": {},
+      "hash": "29ee6b7fb2a55fd43d367b08abfe6ce4c877c630"
+    },
+    "/Users/nildutta1/Documents/Assignment/universal-react/app/components/atoms/HeadTag/types/index.js": {
+      "path": "/Users/nildutta1/Documents/Assignment/universal-react/app/components/atoms/HeadTag/types/index.js",
+      "statementMap": {},
+      "fnMap": {},
+      "branchMap": {},
+      "s": {},
+      "f": {},
+      "b": {},
+      "hash": "bf03e5e7691cd194f8d3a3952e9b170712774504"
+    },
+    "/Users/nildutta1/Documents/Assignment/universal-react/app/components/atoms/Title/index.js": {
+      "path": "/Users/nildutta1/Documents/Assignment/universal-react/app/components/atoms/Title/index.js",
+      "statementMap": {},
+      "fnMap": {},
+      "branchMap": {},
+      "s": {},
+      "f": {},
+      "b": {},
+      "hash": "498b454b7bab0b9479b8b5c6bba62b39ebc45eac"
+    },
+    "/Users/nildutta1/Documents/Assignment/universal-react/app/components/molecules/TopBanner/types/index.js": {
+      "path": "/Users/nildutta1/Documents/Assignment/universal-react/app/components/molecules/TopBanner/types/index.js",
+      "statementMap": {},
+      "fnMap": {},
+      "branchMap": {},
+      "s": {},
+      "f": {},
+      "b": {},
+      "hash": "6f5e7459643c3243f3f74c4faa93f1e1dbca4d94"
+    },
+    "/Users/nildutta1/Documents/Assignment/universal-react/app/components/molecules/NavBar/NavBar.style.js": {
+      "path": "/Users/nildutta1/Documents/Assignment/universal-react/app/components/molecules/NavBar/NavBar.style.js",
+      "statementMap": {
+        "0": { "start": { "line": 25, "column": 4 }, "end": { "line": 36, "column": 5 } }
+      },
+      "fnMap": {
+        "0": {
+          "name": "(anonymous_0)",
+          "decl": { "start": { "line": 24, "column": 4 }, "end": { "line": 24, "column": 5 } },
+          "loc": { "start": { "line": 25, "column": 4 }, "end": { "line": 36, "column": 5 } },
+          "line": 25
+        }
+      },
+      "branchMap": {
+        "0": {
+          "loc": { "start": { "line": 25, "column": 4 }, "end": { "line": 36, "column": 5 } },
+          "type": "binary-expr",
+          "locations": [
+            { "start": { "line": 25, "column": 4 }, "end": { "line": 25, "column": 18 } },
+            { "start": { "line": 26, "column": 4 }, "end": { "line": 36, "column": 5 } }
+          ],
+          "line": 25
+        }
+      },
+      "s": { "0": 0 },
+      "f": { "0": 0 },
+      "b": { "0": [0, 0] },
+      "hash": "e3d4a2b3407c8abf33450f0680836956403f21fa"
+    },
+    "/Users/nildutta1/Documents/Assignment/universal-react/app/components/atoms/Spinner/index.js": {
+      "path": "/Users/nildutta1/Documents/Assignment/universal-react/app/components/atoms/Spinner/index.js",
+      "statementMap": {},
+      "fnMap": {},
+      "branchMap": {},
+      "s": {},
+      "f": {},
+      "b": {},
+      "hash": "a15bfad99d4c77d985f9131b936632a9ddffd6ae"
+    },
+    "/Users/nildutta1/Documents/Assignment/universal-react/app/components/atoms/ProgressCircle/index.js": {
+      "path": "/Users/nildutta1/Documents/Assignment/universal-react/app/components/atoms/ProgressCircle/index.js",
+      "statementMap": {},
+      "fnMap": {},
+      "branchMap": {},
+      "s": {},
+      "f": {},
+      "b": {},
+      "hash": "01fd811a9b043109a868601a633c15e081399d97"
+    },
+    "/Users/nildutta1/Documents/Assignment/universal-react/app/components/atoms/Spinner/Spinner.style.js": {
+      "path": "/Users/nildutta1/Documents/Assignment/universal-react/app/components/atoms/Spinner/Spinner.style.js",
+      "statementMap": {
+        "0": { "start": { "line": 49, "column": 24 }, "end": { "line": 49, "column": 50 } },
+        "1": { "start": { "line": 78, "column": 33 }, "end": { "line": 78, "column": 57 } }
+      },
+      "fnMap": {
+        "0": {
+          "name": "(anonymous_0)",
+          "decl": { "start": { "line": 49, "column": 15 }, "end": { "line": 49, "column": 16 } },
+          "loc": { "start": { "line": 49, "column": 24 }, "end": { "line": 49, "column": 50 } },
+          "line": 49
+        },
+        "1": {
+          "name": "(anonymous_1)",
+          "decl": { "start": { "line": 78, "column": 24 }, "end": { "line": 78, "column": 25 } },
+          "loc": { "start": { "line": 78, "column": 33 }, "end": { "line": 78, "column": 57 } },
+          "line": 78
+        }
+      },
+      "branchMap": {},
+      "s": { "0": 0, "1": 0 },
+      "f": { "0": 0, "1": 0 },
+      "b": {},
+      "hash": "ec3b59e12a4c2bcb7c443d8db807c8c79e7d5578"
+    },
+    "/Users/nildutta1/Documents/Assignment/universal-react/app/components/atoms/Iframe/index.js": {
+      "path": "/Users/nildutta1/Documents/Assignment/universal-react/app/components/atoms/Iframe/index.js",
+      "statementMap": {},
+      "fnMap": {},
+      "branchMap": {},
+      "s": {},
+      "f": {},
+      "b": {},
+      "hash": "106e5d2eab5052ccc65559baf102111d80078cb5"
+    },
+    "/Users/nildutta1/Documents/Assignment/universal-react/app/components/atoms/ProgressCircle/ProgressCircle.style.js": {
+      "path": "/Users/nildutta1/Documents/Assignment/universal-react/app/components/atoms/ProgressCircle/ProgressCircle.style.js",
+      "statementMap": {},
+      "fnMap": {},
+      "branchMap": {},
+      "s": {},
+      "f": {},
+      "b": {},
+      "hash": "ab5d8cbac64d36f018eb4671ebb996094fad7dc1"
+    },
+    "/Users/nildutta1/Documents/Assignment/universal-react/app/components/atoms/Title/Title.style.js": {
+      "path": "/Users/nildutta1/Documents/Assignment/universal-react/app/components/atoms/Title/Title.style.js",
+      "statementMap": {},
+      "fnMap": {},
+      "branchMap": {},
+      "s": {},
+      "f": {},
+      "b": {},
+      "hash": "9039d369f305ab9562a4591e78b99047196cb85d"
+    },
+    "/Users/nildutta1/Documents/Assignment/universal-react/app/components/templates/HomePage/types/index.js": {
+      "path": "/Users/nildutta1/Documents/Assignment/universal-react/app/components/templates/HomePage/types/index.js",
+      "statementMap": {},
+      "fnMap": {},
+      "branchMap": {},
+      "s": {},
+      "f": {},
+      "b": {},
+      "hash": "dc195537c6ca917828275df1c737486aee32c31d"
+    },
+    "/Users/nildutta1/Documents/Assignment/universal-react/app/components/templates/ErrorPage/index.js": {
+      "path": "/Users/nildutta1/Documents/Assignment/universal-react/app/components/templates/ErrorPage/index.js",
+      "statementMap": {},
+      "fnMap": {},
+      "branchMap": {},
+      "s": {},
+      "f": {},
+      "b": {},
+      "hash": "9d4b0886099748234e638c4672ee00328e65a3f5"
+    },
+    "/Users/nildutta1/Documents/Assignment/universal-react/app/components/atoms/Iframe/Iframe.style.js": {
+      "path": "/Users/nildutta1/Documents/Assignment/universal-react/app/components/atoms/Iframe/Iframe.style.js",
+      "statementMap": {},
+      "fnMap": {},
+      "branchMap": {},
+      "s": {},
+      "f": {},
+      "b": {},
+      "hash": "c65616485e6d5cbb4ed95f81fb4d608b042dcd74"
+    },
+    "/Users/nildutta1/Documents/Assignment/universal-react/app/components/atoms/Title/Title.js": {
+      "path": "/Users/nildutta1/Documents/Assignment/universal-react/app/components/atoms/Title/Title.js",
+      "statementMap": {
+        "0": { "start": { "line": 13, "column": 14 }, "end": { "line": 17, "column": 1 } },
+        "1": { "start": { "line": 14, "column": 2 }, "end": { "line": 16, "column": 7 } },
+        "2": { "start": { "line": 19, "column": 0 }, "end": { "line": 21, "column": 2 } }
+      },
+      "fnMap": {
+        "0": {
+          "name": "(anonymous_0)",
+          "decl": { "start": { "line": 13, "column": 14 }, "end": { "line": 13, "column": 15 } },
+          "loc": { "start": { "line": 14, "column": 2 }, "end": { "line": 16, "column": 7 } },
+          "line": 14
+        }
+      },
+      "branchMap": {},
+      "s": { "0": 0, "1": 0, "2": 0 },
+      "f": { "0": 0 },
+      "b": {},
+      "hash": "d6630939ec416ce4a27221b902b056737b020bc5"
+    },
+    "/Users/nildutta1/Documents/Assignment/universal-react/app/components/organisms/Footer/Footer.style.js": {
+      "path": "/Users/nildutta1/Documents/Assignment/universal-react/app/components/organisms/Footer/Footer.style.js",
+      "statementMap": {
+        "0": { "start": { "line": 5, "column": 21 }, "end": { "line": 11, "column": 1 } }
+      },
+      "fnMap": {},
+      "branchMap": {},
+      "s": { "0": 0 },
+      "f": {},
+      "b": {},
+      "hash": "c01475a4cd36d42dec666a34ce827773b3ff240e"
+    },
+    "/Users/nildutta1/Documents/Assignment/universal-react/app/components/organisms/Footer/index.js": {
+      "path": "/Users/nildutta1/Documents/Assignment/universal-react/app/components/organisms/Footer/index.js",
+      "statementMap": {},
+      "fnMap": {},
+      "branchMap": {},
+      "s": {},
+      "f": {},
+      "b": {},
+      "hash": "eda7a6ec060a43c02ec84f4dc2cbefc3515eb727"
+    },
+    "/Users/nildutta1/Documents/Assignment/universal-react/app/components/organisms/Footer/types/index.js": {
+      "path": "/Users/nildutta1/Documents/Assignment/universal-react/app/components/organisms/Footer/types/index.js",
+      "statementMap": {},
+      "fnMap": {},
+      "branchMap": {},
+      "s": {},
+      "f": {},
+      "b": {},
+      "hash": "54dfa1f78418c29d2fc0c28b30a04100da8ca3f3"
+    },
+    "/Users/nildutta1/Documents/Assignment/universal-react/app/components/molecules/NavBar/NavBar.js": {
+      "path": "/Users/nildutta1/Documents/Assignment/universal-react/app/components/molecules/NavBar/NavBar.js",
+      "statementMap": {
+        "0": { "start": { "line": 13, "column": 15 }, "end": { "line": 34, "column": 1 } },
+        "1": { "start": { "line": 14, "column": 2 }, "end": { "line": 33, "column": 8 } },
+        "2": { "start": { "line": 19, "column": 12 }, "end": { "line": 29, "column": 17 } },
+        "3": { "start": { "line": 36, "column": 0 }, "end": { "line": 38, "column": 2 } }
+      },
+      "fnMap": {
+        "0": {
+          "name": "(anonymous_0)",
+          "decl": { "start": { "line": 13, "column": 15 }, "end": { "line": 13, "column": 16 } },
+          "loc": { "start": { "line": 14, "column": 2 }, "end": { "line": 33, "column": 8 } },
+          "line": 14
+        },
+        "1": {
+          "name": "(anonymous_1)",
+          "decl": { "start": { "line": 18, "column": 20 }, "end": { "line": 18, "column": 21 } },
+          "loc": { "start": { "line": 19, "column": 12 }, "end": { "line": 29, "column": 17 } },
+          "line": 19
+        }
+      },
+      "branchMap": {
+        "0": {
+          "loc": { "start": { "line": 15, "column": 5 }, "end": { "line": 32, "column": 5 } },
+          "type": "binary-expr",
+          "locations": [
+            { "start": { "line": 15, "column": 5 }, "end": { "line": 15, "column": 13 } },
+            { "start": { "line": 16, "column": 6 }, "end": { "line": 31, "column": 11 } }
+          ],
+          "line": 15
+        },
+        "1": {
+          "loc": { "start": { "line": 17, "column": 9 }, "end": { "line": 30, "column": 12 } },
+          "type": "binary-expr",
+          "locations": [
+            { "start": { "line": 17, "column": 9 }, "end": { "line": 17, "column": 29 } },
+            { "start": { "line": 18, "column": 10 }, "end": { "line": 30, "column": 12 } }
+          ],
+          "line": 17
+        },
+        "2": {
+          "loc": { "start": { "line": 20, "column": 15 }, "end": { "line": 28, "column": 15 } },
+          "type": "cond-expr",
+          "locations": [
+            { "start": { "line": 21, "column": 16 }, "end": { "line": 23, "column": 23 } },
+            { "start": { "line": 25, "column": 16 }, "end": { "line": 27, "column": 25 } }
+          ],
+          "line": 20
+        }
+      },
+      "s": { "0": 0, "1": 0, "2": 0, "3": 0 },
+      "f": { "0": 0, "1": 0 },
+      "b": { "0": [0, 0], "1": [0, 0], "2": [0, 0] },
+      "hash": "3a6c9bcf1ea6571ba1044465433c13e7fc89fa9d"
+    },
+    "/Users/nildutta1/Documents/Assignment/universal-react/app/components/organisms/Header/types/index.js": {
+      "path": "/Users/nildutta1/Documents/Assignment/universal-react/app/components/organisms/Header/types/index.js",
+      "statementMap": {},
+      "fnMap": {},
+      "branchMap": {},
+      "s": {},
+      "f": {},
+      "b": {},
+      "hash": "b0578d5102e0c354ae051de13f31da2c12f14c25"
+    },
+    "/Users/nildutta1/Documents/Assignment/universal-react/app/components/organisms/Header/index.js": {
+      "path": "/Users/nildutta1/Documents/Assignment/universal-react/app/components/organisms/Header/index.js",
+      "statementMap": {},
+      "fnMap": {},
+      "branchMap": {},
+      "s": {},
+      "f": {},
+      "b": {},
+      "hash": "086180096c97252a4a763c427fd1055056ed9741"
+    },
+    "/Users/nildutta1/Documents/Assignment/universal-react/app/components/organisms/Header/Header.style.js": {
+      "path": "/Users/nildutta1/Documents/Assignment/universal-react/app/components/organisms/Header/Header.style.js",
+      "statementMap": {
+        "0": { "start": { "line": 5, "column": 21 }, "end": { "line": 7, "column": 1 } }
+      },
+      "fnMap": {},
+      "branchMap": {},
+      "s": { "0": 0 },
+      "f": {},
+      "b": {},
+      "hash": "2c709398200a028b6ff2adfbbe1d89fb6ee8933a"
+    },
+    "/Users/nildutta1/Documents/Assignment/universal-react/app/components/templates/Features/index.js": {
+      "path": "/Users/nildutta1/Documents/Assignment/universal-react/app/components/templates/Features/index.js",
+      "statementMap": {},
+      "fnMap": {},
+      "branchMap": {},
+      "s": {},
+      "f": {},
+      "b": {},
+      "hash": "d1e1236c6033873d0cbaa8e9adbf48848c489a4a"
+    },
+    "/Users/nildutta1/Documents/Assignment/universal-react/app/components/templates/Learn/Learn.constants.js": {
+      "path": "/Users/nildutta1/Documents/Assignment/universal-react/app/components/templates/Learn/Learn.constants.js",
+      "statementMap": {
+        "0": { "start": { "line": 5, "column": 31 }, "end": { "line": 5, "column": 48 } },
+        "1": { "start": { "line": 6, "column": 39 }, "end": { "line": 6, "column": 64 } },
+        "2": { "start": { "line": 7, "column": 39 }, "end": { "line": 7, "column": 64 } }
+      },
+      "fnMap": {},
+      "branchMap": {},
+      "s": { "0": 0, "1": 0, "2": 0 },
+      "f": {},
+      "b": {},
+      "hash": "a997cf90959774731517e8e467c2615975ab9008"
+    },
+    "/Users/nildutta1/Documents/Assignment/universal-react/app/components/organisms/Footer/Footer.js": {
+      "path": "/Users/nildutta1/Documents/Assignment/universal-react/app/components/organisms/Footer/Footer.js",
+      "statementMap": {
+        "0": { "start": { "line": 14, "column": 15 }, "end": { "line": 27, "column": 1 } },
+        "1": { "start": { "line": 15, "column": 2 }, "end": { "line": 26, "column": 11 } },
+        "2": { "start": { "line": 29, "column": 0 }, "end": { "line": 29, "column": 25 } }
+      },
+      "fnMap": {
+        "0": {
+          "name": "(anonymous_0)",
+          "decl": { "start": { "line": 14, "column": 15 }, "end": { "line": 14, "column": 16 } },
+          "loc": { "start": { "line": 15, "column": 2 }, "end": { "line": 26, "column": 11 } },
+          "line": 15
+        }
+      },
+      "branchMap": {
+        "0": {
+          "loc": { "start": { "line": 19, "column": 9 }, "end": { "line": 19, "column": 47 } },
+          "type": "binary-expr",
+          "locations": [
+            { "start": { "line": 19, "column": 9 }, "end": { "line": 19, "column": 12 } },
+            { "start": { "line": 19, "column": 16 }, "end": { "line": 19, "column": 47 } }
+          ],
+          "line": 19
+        }
+      },
+      "s": { "0": 0, "1": 0, "2": 0 },
+      "f": { "0": 0 },
+      "b": { "0": [0, 0] },
+      "hash": "96c0ec38e08f6f7f1d3a1f8599b100b1b64feb82"
+    },
+    "/Users/nildutta1/Documents/Assignment/universal-react/app/components/atoms/ProgressCircle/ProgressCircle.js": {
+      "path": "/Users/nildutta1/Documents/Assignment/universal-react/app/components/atoms/ProgressCircle/ProgressCircle.js",
+      "statementMap": {
+        "0": { "start": { "line": 17, "column": 21 }, "end": { "line": 71, "column": 1 } },
+        "1": { "start": { "line": 29, "column": 27 }, "end": { "line": 29, "column": 57 } },
+        "2": { "start": { "line": 30, "column": 24 }, "end": { "line": 30, "column": 54 } },
+        "3": { "start": { "line": 31, "column": 27 }, "end": { "line": 31, "column": 75 } },
+        "4": { "start": { "line": 33, "column": 2 }, "end": { "line": 70, "column": 4 } }
+      },
+      "fnMap": {
+        "0": {
+          "name": "(anonymous_0)",
+          "decl": { "start": { "line": 17, "column": 21 }, "end": { "line": 17, "column": 22 } },
+          "loc": { "start": { "line": 27, "column": 13 }, "end": { "line": 71, "column": 1 } },
+          "line": 27
+        }
+      },
+      "branchMap": {
+        "0": {
+          "loc": { "start": { "line": 67, "column": 9 }, "end": { "line": 67, "column": 30 } },
+          "type": "binary-expr",
+          "locations": [
+            { "start": { "line": 67, "column": 9 }, "end": { "line": 67, "column": 18 } },
+            { "start": { "line": 67, "column": 22 }, "end": { "line": 67, "column": 30 } }
+          ],
+          "line": 67
+        }
+      },
+      "s": { "0": 0, "1": 0, "2": 0, "3": 0, "4": 0 },
+      "f": { "0": 0 },
+      "b": { "0": [0, 0] },
+      "hash": "13a2ab62f89271cf56b5e52a7e61e5f6ea82c471"
+    },
+    "/Users/nildutta1/Documents/Assignment/universal-react/app/components/organisms/Header/Header.js": {
+      "path": "/Users/nildutta1/Documents/Assignment/universal-react/app/components/organisms/Header/Header.js",
+      "statementMap": {
+        "0": { "start": { "line": 11, "column": 15 }, "end": { "line": 22, "column": 1 } },
+        "1": { "start": { "line": 12, "column": 2 }, "end": { "line": 21, "column": 8 } },
+        "2": { "start": { "line": 24, "column": 0 }, "end": { "line": 24, "column": 25 } }
+      },
+      "fnMap": {
+        "0": {
+          "name": "(anonymous_0)",
+          "decl": { "start": { "line": 11, "column": 15 }, "end": { "line": 11, "column": 16 } },
+          "loc": { "start": { "line": 12, "column": 2 }, "end": { "line": 21, "column": 8 } },
+          "line": 12
+        }
+      },
+      "branchMap": {
+        "0": {
+          "loc": { "start": { "line": 19, "column": 7 }, "end": { "line": 19, "column": 36 } },
+          "type": "binary-expr",
+          "locations": [
+            { "start": { "line": 19, "column": 7 }, "end": { "line": 19, "column": 10 } },
+            { "start": { "line": 19, "column": 14 }, "end": { "line": 19, "column": 36 } }
+          ],
+          "line": 19
+        }
+      },
+      "s": { "0": 0, "1": 0, "2": 0 },
+      "f": { "0": 0 },
+      "b": { "0": [0, 0] },
+      "hash": "241acdab0aeec3e87e125b18eb4392c31bb6ab5b"
+    },
+    "/Users/nildutta1/Documents/Assignment/universal-react/app/components/templates/Features/Features.saga.js": {
+      "path": "/Users/nildutta1/Documents/Assignment/universal-react/app/components/templates/Features/Features.saga.js",
+      "statementMap": {
+        "0": { "start": { "line": 7, "column": 2 }, "end": { "line": 13, "column": 3 } },
+        "1": { "start": { "line": 9, "column": 17 }, "end": { "line": 9, "column": 77 } },
+        "2": { "start": { "line": 10, "column": 4 }, "end": { "line": 10, "column": 45 } },
+        "3": { "start": { "line": 12, "column": 4 }, "end": { "line": 12, "column": 44 } },
+        "4": { "start": { "line": 17, "column": 2 }, "end": { "line": 21, "column": 3 } },
+        "5": { "start": { "line": 18, "column": 4 }, "end": { "line": 18, "column": 66 } },
+        "6": { "start": { "line": 20, "column": 4 }, "end": { "line": 20, "column": 44 } }
+      },
+      "fnMap": {
+        "0": {
+          "name": "loadFeaturesPageDataSaga",
+          "decl": { "start": { "line": 6, "column": 17 }, "end": { "line": 6, "column": 41 } },
+          "loc": { "start": { "line": 6, "column": 50 }, "end": { "line": 14, "column": 1 } },
+          "line": 6
+        },
+        "1": {
+          "name": "featuresPageSaga",
+          "decl": { "start": { "line": 16, "column": 25 }, "end": { "line": 16, "column": 41 } },
+          "loc": { "start": { "line": 16, "column": 44 }, "end": { "line": 22, "column": 1 } },
+          "line": 16
+        }
+      },
+      "branchMap": {},
+      "s": { "0": 0, "1": 0, "2": 0, "3": 0, "4": 0, "5": 0, "6": 0 },
+      "f": { "0": 0, "1": 0 },
+      "b": {},
+      "hash": "27f4fd2b6908dddb3624a278e1bfe56936641dd2"
+    },
+    "/Users/nildutta1/Documents/Assignment/universal-react/app/components/molecules/ArticleWrap/types/index.js": {
+      "path": "/Users/nildutta1/Documents/Assignment/universal-react/app/components/molecules/ArticleWrap/types/index.js",
+      "statementMap": {},
+      "fnMap": {},
+      "branchMap": {},
+      "s": {},
+      "f": {},
+      "b": {},
+      "hash": "1b7baf43dd9c141c1fd1be80dc9138f10936b131"
+    },
+    "/Users/nildutta1/Documents/Assignment/universal-react/app/components/templates/Learn/Learn.actions.js": {
+      "path": "/Users/nildutta1/Documents/Assignment/universal-react/app/components/templates/Learn/Learn.actions.js",
+      "statementMap": {
+        "0": { "start": { "line": 13, "column": 29 }, "end": { "line": 16, "column": 2 } },
+        "1": { "start": { "line": 13, "column": 36 }, "end": { "line": 16, "column": 1 } },
+        "2": { "start": { "line": 18, "column": 36 }, "end": { "line": 21, "column": 2 } },
+        "3": { "start": { "line": 18, "column": 52 }, "end": { "line": 21, "column": 1 } },
+        "4": { "start": { "line": 23, "column": 36 }, "end": { "line": 25, "column": 2 } },
+        "5": { "start": { "line": 23, "column": 43 }, "end": { "line": 25, "column": 1 } }
+      },
+      "fnMap": {
+        "0": {
+          "name": "(anonymous_0)",
+          "decl": { "start": { "line": 13, "column": 29 }, "end": { "line": 13, "column": 30 } },
+          "loc": { "start": { "line": 13, "column": 36 }, "end": { "line": 16, "column": 1 } },
+          "line": 13
+        },
+        "1": {
+          "name": "(anonymous_1)",
+          "decl": { "start": { "line": 18, "column": 36 }, "end": { "line": 18, "column": 37 } },
+          "loc": { "start": { "line": 18, "column": 52 }, "end": { "line": 21, "column": 1 } },
+          "line": 18
+        },
+        "2": {
+          "name": "(anonymous_2)",
+          "decl": { "start": { "line": 23, "column": 36 }, "end": { "line": 23, "column": 37 } },
+          "loc": { "start": { "line": 23, "column": 43 }, "end": { "line": 25, "column": 1 } },
+          "line": 23
+        }
+      },
+      "branchMap": {},
+      "s": { "0": 0, "1": 0, "2": 0, "3": 0, "4": 0, "5": 0 },
+      "f": { "0": 0, "1": 0, "2": 0 },
+      "b": {},
+      "hash": "5721992a68f338e2c211c3391dcbe6eb5c859f14"
+    },
+    "/Users/nildutta1/Documents/Assignment/universal-react/app/components/templates/Learn/index.js": {
+      "path": "/Users/nildutta1/Documents/Assignment/universal-react/app/components/templates/Learn/index.js",
+      "statementMap": {},
+      "fnMap": {},
+      "branchMap": {},
+      "s": {},
+      "f": {},
+      "b": {},
+      "hash": "a28d661549d21bc2198f3aa23c2e8e95c0814d73"
+    },
+    "/Users/nildutta1/Documents/Assignment/universal-react/app/components/molecules/FeatureBanner/types/index.js": {
+      "path": "/Users/nildutta1/Documents/Assignment/universal-react/app/components/molecules/FeatureBanner/types/index.js",
+      "statementMap": {},
+      "fnMap": {},
+      "branchMap": {},
+      "s": {},
+      "f": {},
+      "b": {},
+      "hash": "5bd262fef394c1e6eda3d06df08e58ca4a187d8e"
+    },
+    "/Users/nildutta1/Documents/Assignment/universal-react/app/components/molecules/FeatureBanner/FeatureBanner.style.js": {
+      "path": "/Users/nildutta1/Documents/Assignment/universal-react/app/components/molecules/FeatureBanner/FeatureBanner.style.js",
+      "statementMap": {},
+      "fnMap": {},
+      "branchMap": {},
+      "s": {},
+      "f": {},
+      "b": {},
+      "hash": "4ed0c46d63e42d139837f4fb73c8ab75fed6428f"
+    },
+    "/Users/nildutta1/Documents/Assignment/universal-react/app/components/molecules/FeatureBanner/index.js": {
+      "path": "/Users/nildutta1/Documents/Assignment/universal-react/app/components/molecules/FeatureBanner/index.js",
+      "statementMap": {},
+      "fnMap": {},
+      "branchMap": {},
+      "s": {},
+      "f": {},
+      "b": {},
+      "hash": "e41c364bebdf50a755c1a720b784339e5b1c54dc"
+    },
+    "/Users/nildutta1/Documents/Assignment/universal-react/app/components/molecules/FeatureBanner/FeatureBanner.js": {
+      "path": "/Users/nildutta1/Documents/Assignment/universal-react/app/components/molecules/FeatureBanner/FeatureBanner.js",
+      "statementMap": {
+        "0": { "start": { "line": 15, "column": 47 }, "end": { "line": 15, "column": 57 } },
+        "1": { "start": { "line": 16, "column": 4 }, "end": { "line": 23, "column": 6 } }
+      },
+      "fnMap": {
+        "0": {
+          "name": "(anonymous_0)",
+          "decl": { "start": { "line": 14, "column": 2 }, "end": { "line": 14, "column": 3 } },
+          "loc": { "start": { "line": 14, "column": 11 }, "end": { "line": 24, "column": 3 } },
+          "line": 14
+        }
+      },
+      "branchMap": {
+        "0": {
+          "loc": { "start": { "line": 20, "column": 11 }, "end": { "line": 20, "column": 71 } },
+          "type": "binary-expr",
+          "locations": [
+            { "start": { "line": 20, "column": 11 }, "end": { "line": 20, "column": 21 } },
+            { "start": { "line": 20, "column": 25 }, "end": { "line": 20, "column": 71 } }
+          ],
+          "line": 20
+        }
+      },
+      "s": { "0": 0, "1": 0 },
+      "f": { "0": 0 },
+      "b": { "0": [0, 0] },
+      "hash": "e6083c085ab49a3e48854c9ae5aeeb781ca00d6c"
+    },
+    "/Users/nildutta1/Documents/Assignment/universal-react/app/components/templates/Learn/Learn.saga.js": {
+      "path": "/Users/nildutta1/Documents/Assignment/universal-react/app/components/templates/Learn/Learn.saga.js",
+      "statementMap": {
+        "0": { "start": { "line": 7, "column": 2 }, "end": { "line": 13, "column": 3 } },
+        "1": { "start": { "line": 9, "column": 17 }, "end": { "line": 9, "column": 77 } },
+        "2": { "start": { "line": 10, "column": 4 }, "end": { "line": 10, "column": 42 } },
+        "3": { "start": { "line": 12, "column": 4 }, "end": { "line": 12, "column": 41 } },
+        "4": { "start": { "line": 17, "column": 2 }, "end": { "line": 21, "column": 3 } },
+        "5": { "start": { "line": 18, "column": 4 }, "end": { "line": 18, "column": 60 } },
+        "6": { "start": { "line": 20, "column": 4 }, "end": { "line": 20, "column": 41 } }
+      },
+      "fnMap": {
+        "0": {
+          "name": "loadLearnPageDataSaga",
+          "decl": { "start": { "line": 6, "column": 17 }, "end": { "line": 6, "column": 38 } },
+          "loc": { "start": { "line": 6, "column": 47 }, "end": { "line": 14, "column": 1 } },
+          "line": 6
+        },
+        "1": {
+          "name": "learnPageSaga",
+          "decl": { "start": { "line": 16, "column": 25 }, "end": { "line": 16, "column": 38 } },
+          "loc": { "start": { "line": 16, "column": 41 }, "end": { "line": 22, "column": 1 } },
+          "line": 16
+        }
+      },
+      "branchMap": {},
+      "s": { "0": 0, "1": 0, "2": 0, "3": 0, "4": 0, "5": 0, "6": 0 },
+      "f": { "0": 0, "1": 0 },
+      "b": {},
+      "hash": "e820447076febdbec25c77d880e1b9f90da276d1"
+    },
+    "/Users/nildutta1/Documents/Assignment/universal-react/app/components/atoms/Spinner/Spinner.js": {
+      "path": "/Users/nildutta1/Documents/Assignment/universal-react/app/components/atoms/Spinner/Spinner.js",
+      "statementMap": {
+        "0": { "start": { "line": 20, "column": 16 }, "end": { "line": 50, "column": 1 } },
+        "1": { "start": { "line": 21, "column": 31 }, "end": { "line": 23, "column": 3 } },
+        "2": { "start": { "line": 22, "column": 4 }, "end": { "line": 22, "column": 53 } },
+        "3": { "start": { "line": 25, "column": 30 }, "end": { "line": 31, "column": 3 } },
+        "4": { "start": { "line": 26, "column": 4 }, "end": { "line": 30, "column": 10 } },
+        "5": { "start": { "line": 33, "column": 24 }, "end": { "line": 34, "column": 57 } },
+        "6": { "start": { "line": 34, "column": 4 }, "end": { "line": 34, "column": 57 } },
+        "7": { "start": { "line": 36, "column": 27 }, "end": { "line": 37, "column": 56 } },
+        "8": { "start": { "line": 37, "column": 4 }, "end": { "line": 37, "column": 56 } },
+        "9": { "start": { "line": 39, "column": 78 }, "end": { "line": 39, "column": 83 } },
+        "10": { "start": { "line": 40, "column": 2 }, "end": { "line": 48, "column": 3 } },
+        "11": { "start": { "line": 41, "column": 4 }, "end": { "line": 47, "column": 6 } },
+        "12": { "start": { "line": 49, "column": 2 }, "end": { "line": 49, "column": 12 } },
+        "13": { "start": { "line": 52, "column": 0 }, "end": { "line": 57, "column": 2 } }
+      },
+      "fnMap": {
+        "0": {
+          "name": "(anonymous_0)",
+          "decl": { "start": { "line": 20, "column": 16 }, "end": { "line": 20, "column": 17 } },
+          "loc": { "start": { "line": 20, "column": 40 }, "end": { "line": 50, "column": 1 } },
+          "line": 20
+        },
+        "1": {
+          "name": "(anonymous_1)",
+          "decl": { "start": { "line": 21, "column": 31 }, "end": { "line": 21, "column": 32 } },
+          "loc": { "start": { "line": 22, "column": 4 }, "end": { "line": 22, "column": 53 } },
+          "line": 22
+        },
+        "2": {
+          "name": "(anonymous_2)",
+          "decl": { "start": { "line": 25, "column": 30 }, "end": { "line": 25, "column": 31 } },
+          "loc": { "start": { "line": 26, "column": 4 }, "end": { "line": 30, "column": 10 } },
+          "line": 26
+        },
+        "3": {
+          "name": "(anonymous_3)",
+          "decl": { "start": { "line": 33, "column": 24 }, "end": { "line": 33, "column": 25 } },
+          "loc": { "start": { "line": 34, "column": 4 }, "end": { "line": 34, "column": 57 } },
+          "line": 34
+        },
+        "4": {
+          "name": "(anonymous_4)",
+          "decl": { "start": { "line": 36, "column": 27 }, "end": { "line": 36, "column": 28 } },
+          "loc": { "start": { "line": 37, "column": 4 }, "end": { "line": 37, "column": 56 } },
+          "line": 37
+        }
+      },
+      "branchMap": {
+        "0": {
+          "loc": { "start": { "line": 40, "column": 2 }, "end": { "line": 48, "column": 3 } },
+          "type": "if",
+          "locations": [
+            { "start": { "line": 40, "column": 2 }, "end": { "line": 48, "column": 3 } },
+            { "start": { "line": 40, "column": 2 }, "end": { "line": 48, "column": 3 } }
+          ],
+          "line": 40
+        },
+        "1": {
+          "loc": { "start": { "line": 43, "column": 9 }, "end": { "line": 45, "column": 61 } },
+          "type": "cond-expr",
+          "locations": [
+            { "start": { "line": 44, "column": 12 }, "end": { "line": 44, "column": 58 } },
+            { "start": { "line": 45, "column": 12 }, "end": { "line": 45, "column": 61 } }
+          ],
+          "line": 43
+        }
+      },
+      "s": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0,
+        "12": 0,
+        "13": 0
+      },
+      "f": { "0": 0, "1": 0, "2": 0, "3": 0, "4": 0 },
+      "b": { "0": [0, 0], "1": [0, 0] },
+      "hash": "7515290c6cbc9bc812640838152508d1d0274fcd"
+    },
+    "/Users/nildutta1/Documents/Assignment/universal-react/app/components/atoms/Iframe/Iframe.js": {
+      "path": "/Users/nildutta1/Documents/Assignment/universal-react/app/components/atoms/Iframe/Iframe.js",
+      "statementMap": {
+        "0": { "start": { "line": 24, "column": 4 }, "end": { "line": 24, "column": 17 } },
+        "1": { "start": { "line": 25, "column": 4 }, "end": { "line": 27, "column": 6 } },
+        "2": { "start": { "line": 29, "column": 4 }, "end": { "line": 29, "column": 47 } },
+        "3": { "start": { "line": 44, "column": 15 }, "end": { "line": 44, "column": 25 } },
+        "4": { "start": { "line": 46, "column": 28 }, "end": { "line": 46, "column": 38 } },
+        "5": { "start": { "line": 48, "column": 4 }, "end": { "line": 73, "column": 6 } },
+        "6": { "start": { "line": 51, "column": 10 }, "end": { "line": 51, "column": 31 } },
+        "7": { "start": { "line": 60, "column": 10 }, "end": { "line": 66, "column": 11 } },
+        "8": { "start": { "line": 62, "column": 33 }, "end": { "line": 62, "column": 58 } },
+        "9": { "start": { "line": 63, "column": 12 }, "end": { "line": 65, "column": 15 } },
+        "10": { "start": { "line": 67, "column": 10 }, "end": { "line": 69, "column": 11 } },
+        "11": { "start": { "line": 68, "column": 12 }, "end": { "line": 68, "column": 26 } },
+        "12": { "start": { "line": 77, "column": 0 }, "end": { "line": 84, "column": 2 } }
+      },
+      "fnMap": {
+        "0": {
+          "name": "(anonymous_0)",
+          "decl": { "start": { "line": 23, "column": 2 }, "end": { "line": 23, "column": 3 } },
+          "loc": { "start": { "line": 23, "column": 28 }, "end": { "line": 30, "column": 3 } },
+          "line": 23
+        },
+        "1": {
+          "name": "(anonymous_1)",
+          "decl": { "start": { "line": 32, "column": 2 }, "end": { "line": 32, "column": 3 } },
+          "loc": { "start": { "line": 32, "column": 11 }, "end": { "line": 74, "column": 3 } },
+          "line": 32
+        },
+        "2": {
+          "name": "(anonymous_2)",
+          "decl": { "start": { "line": 50, "column": 13 }, "end": { "line": 50, "column": 14 } },
+          "loc": { "start": { "line": 50, "column": 23 }, "end": { "line": 52, "column": 9 } },
+          "line": 50
+        },
+        "3": {
+          "name": "(anonymous_3)",
+          "decl": { "start": { "line": 59, "column": 16 }, "end": { "line": 59, "column": 17 } },
+          "loc": { "start": { "line": 59, "column": 25 }, "end": { "line": 70, "column": 9 } },
+          "line": 59
+        },
+        "4": {
+          "name": "(anonymous_4)",
+          "decl": { "start": { "line": 83, "column": 10 }, "end": { "line": 83, "column": 11 } },
+          "loc": { "start": { "line": 83, "column": 16 }, "end": { "line": 83, "column": 18 } },
+          "line": 83
+        }
+      },
+      "branchMap": {
+        "0": {
+          "loc": { "start": { "line": 57, "column": 16 }, "end": { "line": 57, "column": 56 } },
+          "type": "cond-expr",
+          "locations": [
+            { "start": { "line": 57, "column": 36 }, "end": { "line": 57, "column": 47 } },
+            { "start": { "line": 57, "column": 50 }, "end": { "line": 57, "column": 56 } }
+          ],
+          "line": 57
+        },
+        "1": {
+          "loc": { "start": { "line": 60, "column": 10 }, "end": { "line": 66, "column": 11 } },
+          "type": "if",
+          "locations": [
+            { "start": { "line": 60, "column": 10 }, "end": { "line": 66, "column": 11 } },
+            { "start": { "line": 60, "column": 10 }, "end": { "line": 66, "column": 11 } }
+          ],
+          "line": 60
+        },
+        "2": {
+          "loc": { "start": { "line": 64, "column": 30 }, "end": { "line": 64, "column": 71 } },
+          "type": "cond-expr",
+          "locations": [
+            { "start": { "line": 64, "column": 41 }, "end": { "line": 64, "column": 67 } },
+            { "start": { "line": 64, "column": 70 }, "end": { "line": 64, "column": 71 } }
+          ],
+          "line": 64
+        },
+        "3": {
+          "loc": { "start": { "line": 67, "column": 10 }, "end": { "line": 69, "column": 11 } },
+          "type": "if",
+          "locations": [
+            { "start": { "line": 67, "column": 10 }, "end": { "line": 69, "column": 11 } },
+            { "start": { "line": 67, "column": 10 }, "end": { "line": 69, "column": 11 } }
+          ],
+          "line": 67
+        }
+      },
+      "s": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0,
+        "12": 0
+      },
+      "f": { "0": 0, "1": 0, "2": 0, "3": 0, "4": 0 },
+      "b": { "0": [0, 0], "1": [0, 0], "2": [0, 0], "3": [0, 0] },
+      "hash": "854355495f9374d19c4f4a64bd5abd40916a5b52"
+    },
+    "/Users/nildutta1/Documents/Assignment/universal-react/app/components/templates/Features/Features.constants.js": {
+      "path": "/Users/nildutta1/Documents/Assignment/universal-react/app/components/templates/Features/Features.constants.js",
+      "statementMap": {
+        "0": { "start": { "line": 5, "column": 34 }, "end": { "line": 5, "column": 54 } },
+        "1": { "start": { "line": 6, "column": 42 }, "end": { "line": 6, "column": 70 } },
+        "2": { "start": { "line": 7, "column": 42 }, "end": { "line": 7, "column": 70 } }
+      },
+      "fnMap": {},
+      "branchMap": {},
+      "s": { "0": 0, "1": 0, "2": 0 },
+      "f": {},
+      "b": {},
+      "hash": "e6442ab4102da465c23d449f1314d0cf939fa0ad"
+    },
+    "/Users/nildutta1/Documents/Assignment/universal-react/app/components/templates/Learn/Learn.reducer.js": {
+      "path": "/Users/nildutta1/Documents/Assignment/universal-react/app/components/templates/Learn/Learn.reducer.js",
+      "statementMap": {
+        "0": { "start": { "line": 6, "column": 32 }, "end": { "line": 7, "column": 35 } },
+        "1": { "start": { "line": 7, "column": 2 }, "end": { "line": 7, "column": 35 } },
+        "2": { "start": { "line": 9, "column": 22 }, "end": { "line": 18, "column": 1 } },
+        "3": { "start": { "line": 10, "column": 2 }, "end": { "line": 17, "column": 3 } },
+        "4": { "start": { "line": 12, "column": 6 }, "end": { "line": 12, "column": 50 } },
+        "5": { "start": { "line": 14, "column": 6 }, "end": { "line": 14, "column": 46 } },
+        "6": { "start": { "line": 16, "column": 6 }, "end": { "line": 16, "column": 19 } }
+      },
+      "fnMap": {
+        "0": {
+          "name": "(anonymous_0)",
+          "decl": { "start": { "line": 6, "column": 32 }, "end": { "line": 6, "column": 33 } },
+          "loc": { "start": { "line": 7, "column": 2 }, "end": { "line": 7, "column": 35 } },
+          "line": 7
+        },
+        "1": {
+          "name": "(anonymous_1)",
+          "decl": { "start": { "line": 9, "column": 22 }, "end": { "line": 9, "column": 23 } },
+          "loc": { "start": { "line": 9, "column": 79 }, "end": { "line": 18, "column": 1 } },
+          "line": 9
+        }
+      },
+      "branchMap": {
+        "0": {
+          "loc": { "start": { "line": 9, "column": 23 }, "end": { "line": 9, "column": 41 } },
+          "type": "default-arg",
+          "locations": [
+            { "start": { "line": 9, "column": 39 }, "end": { "line": 9, "column": 41 } }
+          ],
+          "line": 9
+        },
+        "1": {
+          "loc": { "start": { "line": 9, "column": 43 }, "end": { "line": 9, "column": 66 } },
+          "type": "default-arg",
+          "locations": [
+            { "start": { "line": 9, "column": 57 }, "end": { "line": 9, "column": 66 } }
+          ],
+          "line": 9
+        },
+        "2": {
+          "loc": { "start": { "line": 10, "column": 2 }, "end": { "line": 17, "column": 3 } },
+          "type": "switch",
+          "locations": [
+            { "start": { "line": 11, "column": 4 }, "end": { "line": 12, "column": 50 } },
+            { "start": { "line": 13, "column": 4 }, "end": { "line": 14, "column": 46 } },
+            { "start": { "line": 15, "column": 4 }, "end": { "line": 16, "column": 19 } }
+          ],
+          "line": 10
+        }
+      },
+      "s": { "0": 0, "1": 0, "2": 0, "3": 0, "4": 0, "5": 0, "6": 0 },
+      "f": { "0": 0, "1": 0 },
+      "b": { "0": [0], "1": [0], "2": [0, 0, 0] },
+      "hash": "45e0ff614c37b485f0373495d8468d4dd977988a"
+    },
+    "/Users/nildutta1/Documents/Assignment/universal-react/app/components/templates/Features/Features.actions.js": {
+      "path": "/Users/nildutta1/Documents/Assignment/universal-react/app/components/templates/Features/Features.actions.js",
+      "statementMap": {
+        "0": { "start": { "line": 13, "column": 32 }, "end": { "line": 16, "column": 2 } },
+        "1": { "start": { "line": 13, "column": 39 }, "end": { "line": 16, "column": 1 } },
+        "2": { "start": { "line": 18, "column": 39 }, "end": { "line": 21, "column": 2 } },
+        "3": { "start": { "line": 18, "column": 55 }, "end": { "line": 21, "column": 1 } },
+        "4": { "start": { "line": 23, "column": 39 }, "end": { "line": 25, "column": 2 } },
+        "5": { "start": { "line": 23, "column": 46 }, "end": { "line": 25, "column": 1 } }
+      },
+      "fnMap": {
+        "0": {
+          "name": "(anonymous_0)",
+          "decl": { "start": { "line": 13, "column": 32 }, "end": { "line": 13, "column": 33 } },
+          "loc": { "start": { "line": 13, "column": 39 }, "end": { "line": 16, "column": 1 } },
+          "line": 13
+        },
+        "1": {
+          "name": "(anonymous_1)",
+          "decl": { "start": { "line": 18, "column": 39 }, "end": { "line": 18, "column": 40 } },
+          "loc": { "start": { "line": 18, "column": 55 }, "end": { "line": 21, "column": 1 } },
+          "line": 18
+        },
+        "2": {
+          "name": "(anonymous_2)",
+          "decl": { "start": { "line": 23, "column": 39 }, "end": { "line": 23, "column": 40 } },
+          "loc": { "start": { "line": 23, "column": 46 }, "end": { "line": 25, "column": 1 } },
+          "line": 23
+        }
+      },
+      "branchMap": {},
+      "s": { "0": 0, "1": 0, "2": 0, "3": 0, "4": 0, "5": 0 },
+      "f": { "0": 0, "1": 0, "2": 0 },
+      "b": {},
+      "hash": "936efbfcf20ba8b759a23d54b3ec82318f589a1f"
+    },
+    "/Users/nildutta1/Documents/Assignment/universal-react/app/components/templates/Features/Features.reducer.js": {
+      "path": "/Users/nildutta1/Documents/Assignment/universal-react/app/components/templates/Features/Features.reducer.js",
+      "statementMap": {
+        "0": { "start": { "line": 6, "column": 35 }, "end": { "line": 7, "column": 38 } },
+        "1": { "start": { "line": 7, "column": 2 }, "end": { "line": 7, "column": 38 } },
+        "2": { "start": { "line": 9, "column": 22 }, "end": { "line": 18, "column": 1 } },
+        "3": { "start": { "line": 10, "column": 2 }, "end": { "line": 17, "column": 3 } },
+        "4": { "start": { "line": 12, "column": 6 }, "end": { "line": 12, "column": 53 } },
+        "5": { "start": { "line": 14, "column": 6 }, "end": { "line": 14, "column": 49 } },
+        "6": { "start": { "line": 16, "column": 6 }, "end": { "line": 16, "column": 19 } }
+      },
+      "fnMap": {
+        "0": {
+          "name": "(anonymous_0)",
+          "decl": { "start": { "line": 6, "column": 35 }, "end": { "line": 6, "column": 36 } },
+          "loc": { "start": { "line": 7, "column": 2 }, "end": { "line": 7, "column": 38 } },
+          "line": 7
+        },
+        "1": {
+          "name": "(anonymous_1)",
+          "decl": { "start": { "line": 9, "column": 22 }, "end": { "line": 9, "column": 23 } },
+          "loc": { "start": { "line": 9, "column": 79 }, "end": { "line": 18, "column": 1 } },
+          "line": 9
+        }
+      },
+      "branchMap": {
+        "0": {
+          "loc": { "start": { "line": 9, "column": 23 }, "end": { "line": 9, "column": 41 } },
+          "type": "default-arg",
+          "locations": [
+            { "start": { "line": 9, "column": 39 }, "end": { "line": 9, "column": 41 } }
+          ],
+          "line": 9
+        },
+        "1": {
+          "loc": { "start": { "line": 9, "column": 43 }, "end": { "line": 9, "column": 66 } },
+          "type": "default-arg",
+          "locations": [
+            { "start": { "line": 9, "column": 57 }, "end": { "line": 9, "column": 66 } }
+          ],
+          "line": 9
+        },
+        "2": {
+          "loc": { "start": { "line": 10, "column": 2 }, "end": { "line": 17, "column": 3 } },
+          "type": "switch",
+          "locations": [
+            { "start": { "line": 11, "column": 4 }, "end": { "line": 12, "column": 53 } },
+            { "start": { "line": 13, "column": 4 }, "end": { "line": 14, "column": 49 } },
+            { "start": { "line": 15, "column": 4 }, "end": { "line": 16, "column": 19 } }
+          ],
+          "line": 10
+        }
+      },
+      "s": { "0": 0, "1": 0, "2": 0, "3": 0, "4": 0, "5": 0, "6": 0 },
+      "f": { "0": 0, "1": 0 },
+      "b": { "0": [0], "1": [0], "2": [0, 0, 0] },
+      "hash": "49b508795cf2ae0b184e1ca489b1426ac58b7c18"
+    },
+    "/Users/nildutta1/Documents/Assignment/universal-react/app/components/templates/Learn/Learn.js": {
+      "path": "/Users/nildutta1/Documents/Assignment/universal-react/app/components/templates/Learn/Learn.js",
+      "statementMap": {
+        "0": { "start": { "line": 15, "column": 20 }, "end": { "line": 17, "column": 2 } },
+        "1": { "start": { "line": 15, "column": 34 }, "end": { "line": 15, "column": 71 } },
+        "2": { "start": { "line": 16, "column": 17 }, "end": { "line": 16, "column": 27 } },
+        "3": { "start": { "line": 20, "column": 14 }, "end": { "line": 65, "column": 3 } },
+        "4": { "start": { "line": 68, "column": 4 }, "end": { "line": 70, "column": 5 } },
+        "5": { "start": { "line": 69, "column": 6 }, "end": { "line": 69, "column": 22 } },
+        "6": { "start": { "line": 71, "column": 4 }, "end": { "line": 71, "column": 14 } },
+        "7": { "start": { "line": 75, "column": 4 }, "end": { "line": 102, "column": 6 } },
+        "8": { "start": { "line": 91, "column": 14 }, "end": { "line": 97, "column": 16 } }
+      },
+      "fnMap": {
+        "0": {
+          "name": "(anonymous_0)",
+          "decl": { "start": { "line": 15, "column": 28 }, "end": { "line": 15, "column": 29 } },
+          "loc": { "start": { "line": 15, "column": 34 }, "end": { "line": 15, "column": 71 } },
+          "line": 15
+        },
+        "1": {
+          "name": "(anonymous_1)",
+          "decl": { "start": { "line": 16, "column": 11 }, "end": { "line": 16, "column": 12 } },
+          "loc": { "start": { "line": 16, "column": 17 }, "end": { "line": 16, "column": 27 } },
+          "line": 16
+        },
+        "2": {
+          "name": "(anonymous_2)",
+          "decl": { "start": { "line": 67, "column": 2 }, "end": { "line": 67, "column": 3 } },
+          "loc": { "start": { "line": 67, "column": 39 }, "end": { "line": 72, "column": 3 } },
+          "line": 67
+        },
+        "3": {
+          "name": "(anonymous_3)",
+          "decl": { "start": { "line": 74, "column": 2 }, "end": { "line": 74, "column": 3 } },
+          "loc": { "start": { "line": 74, "column": 11 }, "end": { "line": 103, "column": 3 } },
+          "line": 74
+        },
+        "4": {
+          "name": "(anonymous_4)",
+          "decl": { "start": { "line": 90, "column": 32 }, "end": { "line": 90, "column": 33 } },
+          "loc": { "start": { "line": 90, "column": 46 }, "end": { "line": 98, "column": 13 } },
+          "line": 90
+        }
+      },
+      "branchMap": {
+        "0": {
+          "loc": { "start": { "line": 68, "column": 4 }, "end": { "line": 70, "column": 5 } },
+          "type": "if",
+          "locations": [
+            { "start": { "line": 68, "column": 4 }, "end": { "line": 70, "column": 5 } },
+            { "start": { "line": 68, "column": 4 }, "end": { "line": 70, "column": 5 } }
+          ],
+          "line": 68
+        },
+        "1": {
+          "loc": { "start": { "line": 68, "column": 8 }, "end": { "line": 68, "column": 27 } },
+          "type": "binary-expr",
+          "locations": [
+            { "start": { "line": 68, "column": 8 }, "end": { "line": 68, "column": 11 } },
+            { "start": { "line": 68, "column": 15 }, "end": { "line": 68, "column": 27 } }
+          ],
+          "line": 68
+        },
+        "2": {
+          "loc": { "start": { "line": 93, "column": 61 }, "end": { "line": 93, "column": 93 } },
+          "type": "cond-expr",
+          "locations": [
+            { "start": { "line": 93, "column": 76 }, "end": { "line": 93, "column": 86 } },
+            { "start": { "line": 93, "column": 89 }, "end": { "line": 93, "column": 93 } }
+          ],
+          "line": 93
+        }
+      },
+      "s": { "0": 0, "1": 0, "2": 0, "3": 0, "4": 0, "5": 0, "6": 0, "7": 0, "8": 0 },
+      "f": { "0": 0, "1": 0, "2": 0, "3": 0, "4": 0 },
+      "b": { "0": [0, 0], "1": [0, 0], "2": [0, 0] },
+      "hash": "bba8bc0ea4ed214b2a9a8bc6ea18113834e57190"
+    },
+    "/Users/nildutta1/Documents/Assignment/universal-react/app/components/templates/Layout/Layout.style.js": {
+      "path": "/Users/nildutta1/Documents/Assignment/universal-react/app/components/templates/Layout/Layout.style.js",
+      "statementMap": {
+        "0": { "start": { "line": 5, "column": 21 }, "end": { "line": 5, "column": 67 } },
+        "1": { "start": { "line": 6, "column": 23 }, "end": { "line": 6, "column": 69 } },
+        "2": { "start": { "line": 8, "column": 22 }, "end": { "line": 8, "column": 69 } },
+        "3": { "start": { "line": 10, "column": 4 }, "end": { "line": 10, "column": 80 } },
+        "4": { "start": { "line": 12, "column": 4 }, "end": { "line": 12, "column": 86 } },
+        "5": { "start": { "line": 15, "column": 29 }, "end": { "line": 15, "column": 67 } },
+        "6": { "start": { "line": 19, "column": 16 }, "end": { "line": 19, "column": 90 } },
+        "7": { "start": { "line": 21, "column": 6 }, "end": { "line": 23, "column": 12 } },
+        "8": { "start": { "line": 27, "column": 4 }, "end": { "line": 27, "column": 87 } },
+        "9": { "start": { "line": 29, "column": 40 }, "end": { "line": 34, "column": 1 } }
+      },
+      "fnMap": {
+        "0": {
+          "name": "(anonymous_0)",
+          "decl": { "start": { "line": 5, "column": 11 }, "end": { "line": 5, "column": 12 } },
+          "loc": { "start": { "line": 5, "column": 21 }, "end": { "line": 5, "column": 67 } },
+          "line": 5
+        },
+        "1": {
+          "name": "(anonymous_1)",
+          "decl": { "start": { "line": 6, "column": 13 }, "end": { "line": 6, "column": 14 } },
+          "loc": { "start": { "line": 6, "column": 23 }, "end": { "line": 6, "column": 69 } },
+          "line": 6
+        },
+        "2": {
+          "name": "(anonymous_2)",
+          "decl": { "start": { "line": 8, "column": 12 }, "end": { "line": 8, "column": 13 } },
+          "loc": { "start": { "line": 8, "column": 22 }, "end": { "line": 8, "column": 69 } },
+          "line": 8
+        },
+        "3": {
+          "name": "(anonymous_3)",
+          "decl": { "start": { "line": 9, "column": 15 }, "end": { "line": 9, "column": 16 } },
+          "loc": { "start": { "line": 10, "column": 4 }, "end": { "line": 10, "column": 80 } },
+          "line": 10
+        },
+        "4": {
+          "name": "(anonymous_4)",
+          "decl": { "start": { "line": 11, "column": 14 }, "end": { "line": 11, "column": 15 } },
+          "loc": { "start": { "line": 12, "column": 4 }, "end": { "line": 12, "column": 86 } },
+          "line": 12
+        },
+        "5": {
+          "name": "(anonymous_5)",
+          "decl": { "start": { "line": 15, "column": 19 }, "end": { "line": 15, "column": 20 } },
+          "loc": { "start": { "line": 15, "column": 29 }, "end": { "line": 15, "column": 67 } },
+          "line": 15
+        },
+        "6": {
+          "name": "(anonymous_6)",
+          "decl": { "start": { "line": 19, "column": 6 }, "end": { "line": 19, "column": 7 } },
+          "loc": { "start": { "line": 19, "column": 16 }, "end": { "line": 19, "column": 90 } },
+          "line": 19
+        },
+        "7": {
+          "name": "(anonymous_7)",
+          "decl": { "start": { "line": 20, "column": 6 }, "end": { "line": 20, "column": 7 } },
+          "loc": { "start": { "line": 21, "column": 6 }, "end": { "line": 23, "column": 12 } },
+          "line": 21
+        },
+        "8": {
+          "name": "(anonymous_8)",
+          "decl": { "start": { "line": 26, "column": 16 }, "end": { "line": 26, "column": 17 } },
+          "loc": { "start": { "line": 27, "column": 4 }, "end": { "line": 27, "column": 87 } },
+          "line": 27
+        }
+      },
+      "branchMap": {
+        "0": {
+          "loc": { "start": { "line": 5, "column": 21 }, "end": { "line": 5, "column": 67 } },
+          "type": "cond-expr",
+          "locations": [
+            { "start": { "line": 5, "column": 51 }, "end": { "line": 5, "column": 57 } },
+            { "start": { "line": 5, "column": 60 }, "end": { "line": 5, "column": 67 } }
+          ],
+          "line": 5
+        },
+        "1": {
+          "loc": { "start": { "line": 6, "column": 23 }, "end": { "line": 6, "column": 69 } },
+          "type": "cond-expr",
+          "locations": [
+            { "start": { "line": 6, "column": 53 }, "end": { "line": 6, "column": 56 } },
+            { "start": { "line": 6, "column": 59 }, "end": { "line": 6, "column": 69 } }
+          ],
+          "line": 6
+        },
+        "2": {
+          "loc": { "start": { "line": 8, "column": 22 }, "end": { "line": 8, "column": 69 } },
+          "type": "cond-expr",
+          "locations": [
+            { "start": { "line": 8, "column": 53 }, "end": { "line": 8, "column": 60 } },
+            { "start": { "line": 8, "column": 63 }, "end": { "line": 8, "column": 69 } }
+          ],
+          "line": 8
+        },
+        "3": {
+          "loc": { "start": { "line": 10, "column": 4 }, "end": { "line": 10, "column": 80 } },
+          "type": "cond-expr",
+          "locations": [
+            { "start": { "line": 10, "column": 35 }, "end": { "line": 10, "column": 71 } },
+            { "start": { "line": 10, "column": 74 }, "end": { "line": 10, "column": 80 } }
+          ],
+          "line": 10
+        },
+        "4": {
+          "loc": { "start": { "line": 12, "column": 4 }, "end": { "line": 12, "column": 86 } },
+          "type": "cond-expr",
+          "locations": [
+            { "start": { "line": 12, "column": 66 }, "end": { "line": 12, "column": 73 } },
+            { "start": { "line": 12, "column": 76 }, "end": { "line": 12, "column": 86 } }
+          ],
+          "line": 12
+        },
+        "5": {
+          "loc": { "start": { "line": 12, "column": 4 }, "end": { "line": 12, "column": 63 } },
+          "type": "binary-expr",
+          "locations": [
+            { "start": { "line": 12, "column": 4 }, "end": { "line": 12, "column": 31 } },
+            { "start": { "line": 12, "column": 35 }, "end": { "line": 12, "column": 63 } }
+          ],
+          "line": 12
+        },
+        "6": {
+          "loc": { "start": { "line": 15, "column": 29 }, "end": { "line": 15, "column": 67 } },
+          "type": "cond-expr",
+          "locations": [
+            { "start": { "line": 15, "column": 52 }, "end": { "line": 15, "column": 58 } },
+            { "start": { "line": 15, "column": 61 }, "end": { "line": 15, "column": 67 } }
+          ],
+          "line": 15
+        },
+        "7": {
+          "loc": { "start": { "line": 19, "column": 16 }, "end": { "line": 19, "column": 90 } },
+          "type": "cond-expr",
+          "locations": [
+            { "start": { "line": 19, "column": 66 }, "end": { "line": 19, "column": 85 } },
+            { "start": { "line": 19, "column": 88 }, "end": { "line": 19, "column": 90 } }
+          ],
+          "line": 19
+        },
+        "8": {
+          "loc": { "start": { "line": 19, "column": 16 }, "end": { "line": 19, "column": 63 } },
+          "type": "binary-expr",
+          "locations": [
+            { "start": { "line": 19, "column": 16 }, "end": { "line": 19, "column": 44 } },
+            { "start": { "line": 19, "column": 48 }, "end": { "line": 19, "column": 63 } }
+          ],
+          "line": 19
+        },
+        "9": {
+          "loc": { "start": { "line": 21, "column": 6 }, "end": { "line": 23, "column": 12 } },
+          "type": "cond-expr",
+          "locations": [
+            { "start": { "line": 22, "column": 10 }, "end": { "line": 22, "column": 46 } },
+            { "start": { "line": 23, "column": 10 }, "end": { "line": 23, "column": 12 } }
+          ],
+          "line": 21
+        },
+        "10": {
+          "loc": { "start": { "line": 21, "column": 6 }, "end": { "line": 21, "column": 77 } },
+          "type": "binary-expr",
+          "locations": [
+            { "start": { "line": 21, "column": 6 }, "end": { "line": 21, "column": 26 } },
+            { "start": { "line": 21, "column": 30 }, "end": { "line": 21, "column": 58 } },
+            { "start": { "line": 21, "column": 62 }, "end": { "line": 21, "column": 77 } }
+          ],
+          "line": 21
+        },
+        "11": {
+          "loc": { "start": { "line": 27, "column": 4 }, "end": { "line": 27, "column": 87 } },
+          "type": "cond-expr",
+          "locations": [
+            { "start": { "line": 27, "column": 67 }, "end": { "line": 27, "column": 75 } },
+            { "start": { "line": 27, "column": 78 }, "end": { "line": 27, "column": 87 } }
+          ],
+          "line": 27
+        },
+        "12": {
+          "loc": { "start": { "line": 27, "column": 4 }, "end": { "line": 27, "column": 64 } },
+          "type": "binary-expr",
+          "locations": [
+            { "start": { "line": 27, "column": 4 }, "end": { "line": 27, "column": 31 } },
+            { "start": { "line": 27, "column": 35 }, "end": { "line": 27, "column": 64 } }
+          ],
+          "line": 27
+        }
+      },
+      "s": { "0": 0, "1": 0, "2": 0, "3": 0, "4": 0, "5": 0, "6": 0, "7": 0, "8": 0, "9": 0 },
+      "f": { "0": 0, "1": 0, "2": 0, "3": 0, "4": 0, "5": 0, "6": 0, "7": 0, "8": 0 },
+      "b": {
+        "0": [0, 0],
+        "1": [0, 0],
+        "2": [0, 0],
+        "3": [0, 0],
+        "4": [0, 0],
+        "5": [0, 0],
+        "6": [0, 0],
+        "7": [0, 0],
+        "8": [0, 0],
+        "9": [0, 0],
+        "10": [0, 0, 0],
+        "11": [0, 0],
+        "12": [0, 0]
+      },
+      "hash": "a151bf870250812d2d46fb34fb9da0b38ead1c3d"
+    },
+    "/Users/nildutta1/Documents/Assignment/universal-react/app/components/templates/Features/Features.js": {
+      "path": "/Users/nildutta1/Documents/Assignment/universal-react/app/components/templates/Features/Features.js",
+      "statementMap": {
+        "0": { "start": { "line": 22, "column": 14 }, "end": { "line": 22, "column": 79 } },
+        "1": { "start": { "line": 22, "column": 28 }, "end": { "line": 22, "column": 62 } },
+        "2": { "start": { "line": 24, "column": 20 }, "end": { "line": 26, "column": 2 } },
+        "3": { "start": { "line": 24, "column": 34 }, "end": { "line": 24, "column": 71 } },
+        "4": { "start": { "line": 25, "column": 17 }, "end": { "line": 25, "column": 27 } },
+        "5": { "start": { "line": 30, "column": 4 }, "end": { "line": 32, "column": 5 } },
+        "6": { "start": { "line": 31, "column": 6 }, "end": { "line": 31, "column": 22 } },
+        "7": { "start": { "line": 33, "column": 4 }, "end": { "line": 33, "column": 14 } },
+        "8": { "start": { "line": 36, "column": 17 }, "end": { "line": 49, "column": 3 } },
+        "9": { "start": { "line": 52, "column": 4 }, "end": { "line": 313, "column": 6 } }
+      },
+      "fnMap": {
+        "0": {
+          "name": "(anonymous_0)",
+          "decl": { "start": { "line": 22, "column": 22 }, "end": { "line": 22, "column": 23 } },
+          "loc": { "start": { "line": 22, "column": 28 }, "end": { "line": 22, "column": 62 } },
+          "line": 22
+        },
+        "1": {
+          "name": "(anonymous_1)",
+          "decl": { "start": { "line": 24, "column": 28 }, "end": { "line": 24, "column": 29 } },
+          "loc": { "start": { "line": 24, "column": 34 }, "end": { "line": 24, "column": 71 } },
+          "line": 24
+        },
+        "2": {
+          "name": "(anonymous_2)",
+          "decl": { "start": { "line": 25, "column": 11 }, "end": { "line": 25, "column": 12 } },
+          "loc": { "start": { "line": 25, "column": 17 }, "end": { "line": 25, "column": 27 } },
+          "line": 25
+        },
+        "3": {
+          "name": "(anonymous_3)",
+          "decl": { "start": { "line": 29, "column": 2 }, "end": { "line": 29, "column": 3 } },
+          "loc": { "start": { "line": 29, "column": 39 }, "end": { "line": 34, "column": 3 } },
+          "line": 29
+        },
+        "4": {
+          "name": "(anonymous_4)",
+          "decl": { "start": { "line": 51, "column": 2 }, "end": { "line": 51, "column": 3 } },
+          "loc": { "start": { "line": 51, "column": 11 }, "end": { "line": 314, "column": 3 } },
+          "line": 51
+        }
+      },
+      "branchMap": {
+        "0": {
+          "loc": { "start": { "line": 30, "column": 4 }, "end": { "line": 32, "column": 5 } },
+          "type": "if",
+          "locations": [
+            { "start": { "line": 30, "column": 4 }, "end": { "line": 32, "column": 5 } },
+            { "start": { "line": 30, "column": 4 }, "end": { "line": 32, "column": 5 } }
+          ],
+          "line": 30
+        },
+        "1": {
+          "loc": { "start": { "line": 30, "column": 8 }, "end": { "line": 30, "column": 27 } },
+          "type": "binary-expr",
+          "locations": [
+            { "start": { "line": 30, "column": 8 }, "end": { "line": 30, "column": 11 } },
+            { "start": { "line": 30, "column": 15 }, "end": { "line": 30, "column": 27 } }
+          ],
+          "line": 30
+        }
+      },
+      "s": { "0": 0, "1": 0, "2": 0, "3": 0, "4": 0, "5": 0, "6": 0, "7": 0, "8": 0, "9": 0 },
+      "f": { "0": 0, "1": 0, "2": 0, "3": 0, "4": 0 },
+      "b": { "0": [0, 0], "1": [0, 0] },
+      "hash": "06da5538dcb222525194ead5b69a0dbcdc1460e3"
+    }
+  }
+}

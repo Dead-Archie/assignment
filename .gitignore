@@ -1,0 +1,24 @@
+.DS_Store
+dist
+node_modules
+*.log
+reports
+out
+.history
+sitespeed-result
+
+# Reports
+reports
+
+#logs
+logs/
+
+# Flow
+flow-typed/npm
+
+# ES Docs
+docs
+
+# next.js build output
+.next
+app/.next
