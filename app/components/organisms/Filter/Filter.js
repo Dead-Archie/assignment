@@ -7,6 +7,7 @@ class Filter extends React.Component {
   getSpecies = () => {
     const { data } = this.props;
     const speciesObj = {};
+    // eslint-disable-next-line array-callback-return
     data.map(value => {
       const { species } = value;
       if (!speciesObj[species]) {
@@ -19,6 +20,7 @@ class Filter extends React.Component {
   getOrigin = () => {
     const { data } = this.props;
     const originObj = {};
+    // eslint-disable-next-line array-callback-return
     data.map(value => {
       const {
         origin: { name },

@@ -5,7 +5,6 @@ export default css`
     background-color: #ddd;
     border: none;
     color: #868484;
-    padding: 10px 20px;
     text-align: center;
     text-decoration: none;
     display: inline-block;

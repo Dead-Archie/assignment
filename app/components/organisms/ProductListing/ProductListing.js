@@ -52,9 +52,9 @@ class ProductListing extends React.Component {
     const { query } = this.props;
     const filterPill = query[name];
     return (
-      <div role="button" className="filter-pills" onClick={() => this.removePils(name)}>
+      <button className="filter-pills" onClick={() => this.removePils(name)}>
         {filterPill}
-      </div>
+      </button>
     );
   };
 
@@ -103,10 +103,12 @@ class ProductListing extends React.Component {
               ref={this.searchRef}
               className="search-Box"
             />
-            <button onClick={this.getValue}>Search</button>
+            <button className="search-btn" onClick={this.getValue}>
+              Search
+            </button>
           </div>
           <div className="col-3 col-12-small">
-            <select ref={this.sortRef} onChange={this.getSortedValue}>
+            <select className="sort-selector" ref={this.sortRef} onChange={this.getSortedValue}>
               <option value="">Sort By ID</option>
               <option value="asnd">Ascesnding</option>
               <option value="dsnd">Descending</option>

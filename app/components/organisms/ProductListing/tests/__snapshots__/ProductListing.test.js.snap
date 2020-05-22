@@ -1,0 +1,157 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ProductListing /> should render correctly 1`] = `
+<div
+  className="lgzevM row"
+>
+  <div
+    className="col-12"
+  >
+    <h3>
+      Selected Filters
+    </h3>
+    <button
+      className="filter-pills"
+      onClick={[Function]}
+    >
+      Earth (C-137)
+    </button>
+  </div>
+  <div
+    className="row"
+    style={
+      Object {
+        "width": "100%",
+      }
+    }
+  >
+    <div
+      className="col-9 col-12-small"
+    >
+      <input
+        className="search-Box"
+        placeholder="Search by Name"
+        type="text"
+      />
+      <button
+        className="search-btn"
+        onClick={[Function]}
+      >
+        Search
+      </button>
+    </div>
+    <div
+      className="col-3 col-12-small"
+    >
+      <select
+        className="sort-selector"
+        onChange={[Function]}
+      >
+        <option
+          value=""
+        >
+          Sort By ID
+        </option>
+        <option
+          value="asnd"
+        >
+          Ascesnding
+        </option>
+        <option
+          value="dsnd"
+        >
+          Descending
+        </option>
+      </select>
+    </div>
+  </div>
+  <div
+    className="row"
+  >
+    <withStyles
+      product={
+        Object {
+          "name": "Morty Smith",
+          "origin": Object {
+            "name": "Earth (C-137)",
+            "url": "https://rickandmortya",
+          },
+          "species": "Human",
+          "status": "Alive",
+          "type": "",
+        }
+      }
+      queryOrigin="Earth (C-137)"
+    />
+  </div>
+</div>
+`;
+
+exports[`<ProductListing /> should render with out props correctly 1`] = `
+<div
+  className=" row"
+>
+  <div
+    className="col-12"
+  >
+    <h3>
+      Selected Filters
+    </h3>
+    <button
+      className="filter-pills"
+      onClick={[Function]}
+    />
+  </div>
+  <div
+    className="row"
+    style={
+      Object {
+        "width": "100%",
+      }
+    }
+  >
+    <div
+      className="col-9 col-12-small"
+    >
+      <input
+        className="search-Box"
+        placeholder="Search by Name"
+        type="text"
+      />
+      <button
+        className="search-btn"
+        onClick={[Function]}
+      >
+        Search
+      </button>
+    </div>
+    <div
+      className="col-3 col-12-small"
+    >
+      <select
+        className="sort-selector"
+        onChange={[Function]}
+      >
+        <option
+          value=""
+        >
+          Sort By ID
+        </option>
+        <option
+          value="asnd"
+        >
+          Ascesnding
+        </option>
+        <option
+          value="dsnd"
+        >
+          Descending
+        </option>
+      </select>
+    </div>
+  </div>
+  <div
+    className="row"
+  />
+</div>
+`;
