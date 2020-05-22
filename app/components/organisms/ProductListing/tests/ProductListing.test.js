@@ -14,11 +14,19 @@ const sampleProps = {
   },
   data: [
     {
+      gender: 'male',
       name: 'Morty Smith',
-      origin: { name: 'Earth (C-137)', url: 'https://rickandmortya' },
+      origin: {
+        name: 'Earth (C-137)',
+        url: 'https://rickandmortyapi.com/api/location/1',
+      },
       species: 'Human',
       status: 'Alive',
       type: '',
+      location: {
+        name: 'Earth (Replacement Dimension)',
+        url: 'https://rickandmortyapi.com/api/location/20',
+      },
     },
   ],
 };

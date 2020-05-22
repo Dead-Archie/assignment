@@ -21,8 +21,8 @@ class ProductListGrid extends React.Component {
       { Status: status },
       { Species: species },
       { Gender: gender },
-      { Origin: origin.name },
-      { 'Last Location': location.name },
+      { Origin: origin.name || '' },
+      { 'Last Location': location.name || '' },
     ];
 
     if (queryOrigin && queryOrigin !== origin.name) {

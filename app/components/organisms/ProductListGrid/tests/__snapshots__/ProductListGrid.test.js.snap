@@ -1,0 +1,131 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ProductListGrid /> should render correctly 1`] = `
+<div
+  className="lgzevM col-6-small col-3"
+>
+  <div
+    className="container-Background"
+  >
+    <div
+      className="image-container"
+    >
+      <Image
+        className="product-image"
+        elementLocator=""
+        inheritedStyles=""
+        loading="auto"
+        placeholderSrc=""
+        sizes=""
+        srcset=""
+      />
+      <div
+        className="product-name"
+      >
+        <div
+          className="product-title"
+        >
+          Morty Smith
+        </div>
+        <span>
+          ID :undefined
+        </span>
+      </div>
+    </div>
+    <div
+      className="info-container"
+    >
+      <div
+        className="product-container"
+      >
+        <div
+          className="product-row"
+        >
+          <div
+            className="product-key"
+          >
+            Status
+          </div>
+          <div
+            className="product-value"
+          >
+            Alive
+          </div>
+        </div>
+      </div>
+      <div
+        className="product-container"
+      >
+        <div
+          className="product-row"
+        >
+          <div
+            className="product-key"
+          >
+            Species
+          </div>
+          <div
+            className="product-value"
+          >
+            Human
+          </div>
+        </div>
+      </div>
+      <div
+        className="product-container"
+      >
+        <div
+          className="product-row"
+        >
+          <div
+            className="product-key"
+          >
+            Gender
+          </div>
+          <div
+            className="product-value"
+          >
+            male
+          </div>
+        </div>
+      </div>
+      <div
+        className="product-container"
+      >
+        <div
+          className="product-row"
+        >
+          <div
+            className="product-key"
+          >
+            Origin
+          </div>
+          <div
+            className="product-value"
+          >
+            Earth (C-137)
+          </div>
+        </div>
+      </div>
+      <div
+        className="product-container"
+      >
+        <div
+          className="product-row"
+        >
+          <div
+            className="product-key"
+          >
+            Last Location
+          </div>
+          <div
+            className="product-value"
+          >
+            Earth (Replacement Dimension)
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
