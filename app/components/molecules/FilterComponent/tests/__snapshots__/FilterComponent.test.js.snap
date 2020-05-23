@@ -1,0 +1,60 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FilterComponent /> should render correctly 1`] = `
+<div>
+  <h4>
+    origin
+  </h4>
+  <div
+    className="filter-options"
+  >
+    <input
+      checked={false}
+      id="origin_0"
+      name="origin"
+      onChange={[Function]}
+      type="radio"
+      value="Earth (C-137)"
+    />
+    <label
+      htmlFor="origin_0"
+    >
+      Earth (C-137)
+    </label>
+  </div>
+  <div
+    className="filter-options"
+  >
+    <input
+      checked={false}
+      id="origin_1"
+      name="origin"
+      onChange={[Function]}
+      type="radio"
+      value="unknown"
+    />
+    <label
+      htmlFor="origin_1"
+    >
+      unknown
+    </label>
+  </div>
+  <div
+    className="filter-options"
+  >
+    <input
+      checked={false}
+      id="origin_2"
+      name="origin"
+      onChange={[Function]}
+      type="radio"
+      value="Eric Stoltz Mask Eart"
+    />
+    <label
+      htmlFor="origin_2"
+    >
+      Eric Stoltz Mask Eart
+    </label>
+  </div>
+</div>
+`;

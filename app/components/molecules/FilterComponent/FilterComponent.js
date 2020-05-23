@@ -1,10 +1,10 @@
-import React, { Component } from 'react';
+import React from 'react';
 import PropTypes from 'prop-types';
 import Router from 'next/router';
 import { queryParamStr } from '../../../utils/utils';
 
 // eslint-disable-next-line react/prefer-stateless-function
-export class FilterComponent extends Component {
+class FilterComponent extends React.Component {
   constructor(props) {
     super(props);
     this.queryString = [];
@@ -36,7 +36,7 @@ export class FilterComponent extends Component {
         <h4>{title}</h4>
         {data.map((item, index) => {
           return (
-            <div>
+            <div className="filter-options">
               <input
                 type="radio"
                 id={`${title}_${index}`}
@@ -66,3 +66,4 @@ FilterComponent.defaultProps = {
 };
 
 export default FilterComponent;
+export { FilterComponent };

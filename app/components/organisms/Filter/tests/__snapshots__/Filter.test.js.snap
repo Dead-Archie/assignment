@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Filter /> should render correctly 1`] = `
+<div>
+  <h3>
+    Filters
+  </h3>
+  <FilterComponent
+    data={
+      Array [
+        "Human",
+      ]
+    }
+    query={
+      Object {
+        "name": "morty",
+        "origin": "Earth (C-137)",
+      }
+    }
+    title="species"
+  />
+  <FilterComponent
+    data={
+      Array [
+        "male",
+        "female",
+      ]
+    }
+    query={
+      Object {
+        "name": "morty",
+        "origin": "Earth (C-137)",
+      }
+    }
+    title="gender"
+  />
+  <FilterComponent
+    data={
+      Array [
+        "Earth (C-137)",
+      ]
+    }
+    query={
+      Object {
+        "name": "morty",
+        "origin": "Earth (C-137)",
+      }
+    }
+    title="origin"
+  />
+</div>
+`;
+
+exports[`<Filter /> should render with out props correctly 1`] = `""`;

@@ -59,3 +59,4 @@ Filter.defaultProps = {
 };
 
 export default Filter;
+export { Filter };
