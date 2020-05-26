@@ -7,6 +7,8 @@ const { spawn } = require('child_process');
 const device = require('express-device');
 const cookieParser = require('cookie-parser');
 const helmet = require('helmet');
+const graphQlHTTP = require('express-graphql');
+const schema = require('./schema/schema');
 
 const { MACHINE_IP, PORT, IS_CACHE_ENABLED, NODE_ENV } = require('./config/appConfig');
 // const { isStaticUrl, parseStaticUrl } = require('./utils/staticVersioning'); eslint-disable-line
@@ -89,6 +91,13 @@ const handler = routes.getRequestHandler(app, async ({ req, res, route, query })
 
 app.prepare().then(() => {
   const server = express();
+  server.use(
+    '/grpahql',
+    graphQlHTTP({
+      schema,
+      graphiql: true,
+    })
+  );
   server
     // Parse cookies from request object
     .use(cookieParser())
