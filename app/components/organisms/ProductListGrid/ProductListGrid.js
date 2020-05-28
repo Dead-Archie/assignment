@@ -29,7 +29,7 @@ class ProductListGrid extends React.Component {
       return false;
     }
     return (
-      <div className={`${className} col-6-small col-3`}>
+      <div className={`${className} col-6-small`}>
         <div className="container-Background">
           <div className="image-container">
             <Image src={image} className="product-image" />
