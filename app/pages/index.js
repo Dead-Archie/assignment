@@ -1,1 +1,1 @@
-export { default } from '../containers/templates/HomePage';
+export { default } from '../containers/templates/LoginPage';

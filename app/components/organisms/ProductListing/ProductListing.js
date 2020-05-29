@@ -42,7 +42,7 @@ class ProductListing extends React.Component {
     delete query[name];
     const queryStr = queryParamStr(query);
 
-    Router.push(`/?${queryStr}`);
+    Router.push(`/dashboard?${queryStr}`);
   };
 
   filterPils = name => {
@@ -80,7 +80,7 @@ class ProductListing extends React.Component {
     }
     const queryStr = queryParamStr(query);
 
-    Router.push(`/?${queryStr}`);
+    Router.push(`/dashboard?${queryStr}`);
   };
 
   render() {

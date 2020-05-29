@@ -11,6 +11,7 @@ import HomePage from '../../../components/templates/HomePage';
 const mapStateToProps = state => ({
   editorialData: get(state, ['homePage', 'layout', 'editorialData']),
   globalData: get(state, ['global', 'globalData']),
+  loginData: get(state, ['LoginPage', 'loginReducer']),
 });
 
 export default enhance(HomePage, {

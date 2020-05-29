@@ -13,9 +13,10 @@ import withStyles from '../../../lib/withStyles';
 import styles from './HomePage.style';
 import { queryParamStr } from '../../../utils/utils';
 
-const HomePage = ({ editorialData, globalData }: Props): Node => {
+const HomePage = ({ editorialData, globalData, loginData }: Props): Node => {
   const { title, subTitle } = editorialData;
   const { pageQuery } = globalData;
+  const { isLoggedIn } = loginData || '';
   const [urlParams, setUrlParams] = useState('');
   const getUsersParamQuery = gql`
     {
@@ -40,7 +41,7 @@ const HomePage = ({ editorialData, globalData }: Props): Node => {
 
   console.log(' props ', useQuery(getUsersParamQuery));
 
-  const { data, loading } = useQuery(getUsersParamQuery);
+  const { data } = useQuery(getUsersParamQuery);
   const { usersWithParams } = data || '';
 
   const Router = useRouter();
@@ -52,6 +53,9 @@ const HomePage = ({ editorialData, globalData }: Props): Node => {
     const qryParam = queryParamStr(pageQuery);
 
     setUrlParams(qryParam);
+    if (!isLoggedIn) {
+      Router.push(`/`);
+    }
   }, [pageQuery]);
 
   return (
@@ -59,18 +63,16 @@ const HomePage = ({ editorialData, globalData }: Props): Node => {
       <HeadTag title="Product Listing Page" />
       <TopBanner title={title} subTitle={subTitle} />
       <section className="wrapper">
-        {!loading && (
-          <div className="inner">
-            <div className="row">
-              <div className="col-2 col-12-small">
-                <Filter data={usersWithParams} query={pageQuery} />
-              </div>
-              <div className="col-10 col-12-small">
-                <ProductListing data={usersWithParams} query={pageQuery} />
-              </div>
+        <div className="inner">
+          <div className="row">
+            <div className="col-2 col-12-small">
+              <Filter data={usersWithParams} query={pageQuery} />
+            </div>
+            <div className="col-10 col-12-small">
+              <ProductListing data={usersWithParams} query={pageQuery} />
             </div>
           </div>
-        )}
+        </div>
       </section>
     </Layout>
   );
