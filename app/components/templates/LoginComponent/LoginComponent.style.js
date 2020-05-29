@@ -101,6 +101,7 @@ export default css`
     font-size: 13px;
     color: #333333;
     line-height: 1.5;
+    box-shadow: none;
   }
 
   .limiter {
