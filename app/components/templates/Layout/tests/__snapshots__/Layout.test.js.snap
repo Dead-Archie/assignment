@@ -4,7 +4,7 @@ exports[`Layout Component should render correctly 1`] = `
 <ThemeProvider
   theme={
     Object {
-      "deviceType": "desktop",
+      "deviceType": "DESKTOP",
       "hasRightGutter": 1100,
       "theme": Object {
         "primaryColor": "whitesmoke",
@@ -25,25 +25,27 @@ exports[`Layout Component should render correctly 1`] = `
   }
 >
   <main>
-    <SideEffect(Head)>
+    <Head>
       <meta
-        content="width=1100"
+        content="initial-scale=1.0, minimum-scale=1.0, width=device-width, shrink-to-fit=no"
         name="viewport"
       />
-    </SideEffect(Head)>
-    <Header />
+      <meta
+        content="#000"
+        name="theme-color"
+      />
+    </Head>
     <div>
       HELLO
     </div>
-    <Footer />
   </main>
 </ThemeProvider>
 `;
 
 exports[`Layout Component should render the styled component appropriately 1`] = `
 .c0 {
-  width: 100%;
-  padding: 0;
+  width: 978px;
+  padding: 0 10px;
   -webkit-transition: -webkit-transform 0.1s ease-in-out;
   -webkit-transition: transform 0.1s ease-in-out;
   transition: transform 0.1s ease-in-out;
@@ -51,7 +53,7 @@ exports[`Layout Component should render the styled component appropriately 1`] =
   -webkit-transform: translate3d(calc(85% + 6px),0,0);
   -ms-transform: translate3d(calc(85% + 6px),0,0);
   transform: translate3d(calc(85% + 6px),0,0);
-  position: fixed;
+  position: relative;
   overflow-x: visible;
 }
 
@@ -61,20 +63,73 @@ exports[`Layout Component should render the styled component appropriately 1`] =
   }
 }
 
-<div
-  className="c0"
+<Layoutstyle
+  deviceType="MOBILE"
+  isNavigationDrawerOpen={true}
+  topBanner="TOPBANNER"
 >
-  <div>
-    HELLO
-  </div>
-</div>
+  <StyledComponent
+    deviceType="MOBILE"
+    forwardedComponent={
+      Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "attrs": Array [],
+        "componentStyle": ComponentStyle {
+          "componentId": "Layoutstyle-xq0jqi-0",
+          "isStatic": false,
+          "lastClassName": "c0",
+          "rules": Array [
+            "width:",
+            [Function],
+            ";padding:",
+            [Function],
+            ";transition:transform 0.1s ease-in-out;height:",
+            [Function],
+            ";transform:",
+            [Function],
+            ";position:",
+            [Function],
+            ";@media (max-width:1200px) and (min-width:768px){margin-left:",
+            [Function],
+            ";}@media (max-width:1070px){",
+            [Function],
+            ";",
+            [Function],
+            ";}overflow-x:",
+            [Function],
+            ";",
+          ],
+        },
+        "displayName": "Layoutstyle",
+        "foldedComponentIds": Array [],
+        "render": [Function],
+        "styledComponentId": "Layoutstyle-xq0jqi-0",
+        "target": "div",
+        "toString": [Function],
+        "warnTooManyClasses": [Function],
+        "withComponent": [Function],
+      }
+    }
+    forwardedRef={null}
+    isNavigationDrawerOpen={true}
+    topBanner="TOPBANNER"
+  >
+    <div
+      className="c0"
+    >
+      <div>
+        HELLO
+      </div>
+    </div>
+  </StyledComponent>
+</Layoutstyle>
 `;
 
 exports[`Layout Component should render when deviceType is Mobile 1`] = `
 <ThemeProvider
   theme={
     Object {
-      "deviceType": "mobile",
+      "deviceType": "MOBILE",
       "hasRightGutter": false,
       "theme": Object {
         "primaryColor": "whitesmoke",
@@ -95,17 +150,19 @@ exports[`Layout Component should render when deviceType is Mobile 1`] = `
   }
 >
   <main>
-    <SideEffect(Head)>
+    <Head>
       <meta
-        content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, width=device-width, shrink-to-fit=no"
+        content="initial-scale=1.0, minimum-scale=1.0, width=device-width, shrink-to-fit=no"
         name="viewport"
       />
-    </SideEffect(Head)>
-    <Header />
+      <meta
+        content="#000"
+        name="theme-color"
+      />
+    </Head>
     <div>
       HELLO
     </div>
-    <Footer />
   </main>
 </ThemeProvider>
 `;

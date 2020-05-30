@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FeatureBanner /> should render correctly 1`] = `
+<article
+  className="lgzevM"
+>
+  <div
+    className="inner"
+  >
+    <h1>
+      Heading Test
+    </h1>
+    <div
+      className="subheading"
+    >
+      Sub Heading Test
+    </div>
+  </div>
+</article>
+`;

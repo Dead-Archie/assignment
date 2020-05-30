@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ArticleWrap /> should render correctly 1`] = `
+<article
+  className="text-left"
+>
+  <div
+    className="inner"
+  >
+    <h2>
+      test
+    </h2>
+    <div
+      className="sub-heading"
+    >
+      test
+    </div>
+    <div
+      className="container-wrap m-t-30"
+    />
+  </div>
+</article>
+`;
