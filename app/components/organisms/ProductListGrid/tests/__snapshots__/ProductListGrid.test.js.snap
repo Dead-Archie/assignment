@@ -2,7 +2,7 @@
 
 exports[`<ProductListGrid /> should render correctly 1`] = `
 <div
-  className="lgzevM col-6-small col-3"
+  className="lgzevM col-6-small"
 >
   <div
     className="container-Background"

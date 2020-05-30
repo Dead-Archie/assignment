@@ -23,9 +23,9 @@ class FilterComponent extends React.Component {
     const queryStr = queryParamStr(query);
 
     if (queryStr) {
-      Router.push(`/?${queryStr}`);
+      Router.push(`/dashboard?${queryStr}`);
     } else {
-      Router.push(`/`);
+      Router.push(`/dashboard`);
     }
   };
 
