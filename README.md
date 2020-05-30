@@ -1,25 +1,26 @@
-# Universal React
+# Ricky Morty Assignment XT
 
-A community accepted and reliable XT Dev Ecosystem, that can be utilized as baseline for
-development of all types of projects, to achieve dependable delivery standards. This
-ecosystem doesn&apos;t intend to provide lot of out of the box code/components but a
-well configured development environment and delivery pipeline, having balanced focus to
-Static Code Quality, Performance, Processes, Security, Testability and Best Practices.
-This boilerplate will help project teams in building applications with great quality, by
-giving them more time to focus on business problems rather than web development chores.
+###### API Server
 
-## Ecosystem of this reference architecture 🎉
+- Created a GraphQl schema and GraphiQl page `sh http://localhost:3002/grpahql` to render data from rick morty api.
+- API return the characters on the basis of search and filter criteria sent.
 
-- **Development Environment:** Storybook integrated for developing and showcasing components.
-- **Flow typed:** All components are FlowTyped and Flow Type checked.
-- **Static Code Quality checks and formatting:** Javascript and CSS linting using Eslint, StyleLint and Prettier.
-- **Component scaffolding:** Consistently generate components using Plop.
-- **Git Hooks:** Pre-commit, Pre-push and pre-publish using Husky.
-- **Unit testing framework:** with Jest and Enzyme.
-- **Theme and Styling:** with Styled Components.
-- **Next.js:** to render react application server side and more.
-- **PWA:** application.
-- **Dynamic Authoring:** of pages with headless CMS.
+###### Login & Registration Page
+
+- Created separate pages for Login & User Registration.
+- Initialy save Data into Local Storage to Validate. Registered. Currently not using Backend.
+
+###### Front Page
+
+- The Dashboard page is protected, which means if user cannot access it without logging in. Non-logged in user should be redirected to login page.
+- Implement Sort feature (to filter through ‘id’ in ascending and descending order).
+- Implement Filters to filter out data based on Species and Gender.
+- A feature to Search (via name) should be implemented.
+
+###### Misc
+
+- Worte Unit tests for Components to test the functionalities.
+- Create Responsive Templates.
 
 ## Main Technology Dependencies
 
@@ -27,6 +28,8 @@ giving them more time to focus on business problems rather than web development 
 2. Next.js
 3. Redux
 4. Node.js
+5. GraphQl
+6. Jest & Enzyme
 
 ## Installation
 
@@ -34,11 +37,5 @@ Fork the repository & install dependencies using the yarn/npm command line tools
 
 ```sh
 yarn install
-yarn run flow:install
+yarn dev
 ```
-
-flow:install will search the [`libdef`](https://github.com/flow-typed/flow-typed/blob/master/README.md) repo and download all the libdefs that are relevant for our project and install them for us.
-
-## How to ramp-up?
-
-Follow this ramp-up [guide](readme/01-GettingStarted.md)
