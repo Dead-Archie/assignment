@@ -1,4 +1,4 @@
-import { shallow } from 'enzyme';
+import { shallow, mount } from 'enzyme';
 import 'jest-styled-components';
 import { Layout } from '../Layout';
 import LayoutElement from '../Layout.style';
@@ -12,7 +12,7 @@ const props = {
   hasRightGutter: 1100,
 };
 
-xdescribe('Layout Component', () => {
+describe('Layout Component', () => {
   let layout = '';
 
   beforeEach(() => {
@@ -31,7 +31,7 @@ xdescribe('Layout Component', () => {
   });
 
   test('should render the styled component appropriately', () => {
-    const styledLayout = shallow(<LayoutElement {...props} />);
+    const styledLayout = mount(<LayoutElement {...props} />);
     expect(styledLayout).toMatchSnapshot();
   });
 });

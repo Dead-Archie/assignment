@@ -17,6 +17,13 @@ const setUp = props => {
 describe('<LoginComponent />', () => {
   let LoginComponentTest;
   beforeEach(() => {
+    Object.defineProperty(window, 'localStorage', {
+      value: {
+        getItem: jest.fn(() => null),
+        setItem: jest.fn(() => null),
+      },
+      writable: true,
+    });
     LoginComponentTest = setUp(sampleProps);
   });
 

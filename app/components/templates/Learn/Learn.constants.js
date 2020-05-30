@@ -1,7 +1,0 @@
-/*
- * Learn constants
- */
-
-export const LOAD_LEARN_PAGE = 'LOAD_LEARN_PAGE';
-export const LOAD_LEARN_PAGE_SUCCESS = 'LOAD_LEARN_PAGE_SUCCESS';
-export const LOAD_LEARN_PAGE_FAILURE = 'LOAD_LEARN_PAGE_FAILURE';
