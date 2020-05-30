@@ -39,8 +39,6 @@ const HomePage = ({ editorialData, globalData, loginData }: Props): Node => {
     }
   `;
 
-  console.log(' props ', useQuery(getUsersParamQuery));
-
   const { data } = useQuery(getUsersParamQuery);
   const { usersWithParams } = data || '';
 

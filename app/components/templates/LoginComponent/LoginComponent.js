@@ -85,7 +85,10 @@ class LoginComponent extends React.PureComponent {
                 <div className="container-login100-form-btn">
                   <div className="wrap-login100-form-btn">
                     <div className="login100-form-bgbtn" />
-                    <button className="login100-form-btn" onClick={() => this.checkValidUser()}>
+                    <button
+                      className="login100-form-btn login-btn"
+                      onClick={() => this.checkValidUser()}
+                    >
                       Login
                     </button>
                   </div>
@@ -104,7 +107,10 @@ class LoginComponent extends React.PureComponent {
               <div className="container-login100-form-btn">
                 <div className="wrap-login100-form-btn">
                   <div className="login100-form-bgbtn" />
-                  <button className="login100-form-btn" onClick={() => this.registerData()}>
+                  <button
+                    className="login100-form-btn registration-btn"
+                    onClick={() => this.registerData()}
+                  >
                     Register
                   </button>
                 </div>
